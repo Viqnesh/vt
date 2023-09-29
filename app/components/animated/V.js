@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import LogoV from '../../../public/Logo/vtcolor.svg'
+import LogoV from '../../../public/Logo/vtcolor.png'
 
 const AnimatedImage = () => {
   return (

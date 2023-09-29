@@ -8,7 +8,7 @@ import github from '../../public/Logo/github.png'
 import menu from '../../public/Logo/menu.png'
 import malt from '../../public/Logo/malt.png'
 import linked from '../../public/Logo/linked.png'
-import logoV from '../../public/Logo/vtcolor.svg'
+import logoV from '../../public/Logo/vtcolor.png'
 const itemVariants = {
   open: {
     opacity: 1,
