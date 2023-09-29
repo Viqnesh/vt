@@ -1,1 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 152.03 180.36"><defs><style>.cls-1{fill:#009fe3;}.cls-2{font-size:91px;fill:#fff;font-family:Auto-Techno, Auto Techno;}</style></defs><g id="Calque_2" data-name="Calque 2"><g id="Calque_1-2" data-name="Calque 1"><path class="cls-1" d="M152,84.57c0,9.83-.13,19.66,0,29.48.16,9.32-3.36,16.3-11.66,21q-26.48,15-52.72,30.36c-8,4.73-15.52,4.57-23.46-.1C46.85,155.1,29.46,145,11.93,135.15,3.81,130.59,0,124,0,114.86Q.14,84.64,0,54.41C0,45,3.76,38.31,12.05,33.65Q38.36,18.88,64.34,3.5c7.84-4.62,15.31-4.67,23.09-.13q27.13,15.83,54.39,31.48C149.34,39.16,152,45.91,152,54.09,152,64.25,152,74.41,152,84.57Z"/><text class="cls-2" transform="translate(30.45 127.87)">v</text></g></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 152 180.4" style="enable-background:new 0 0 152 180.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#009FE3;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'Auto-Techno';}
+	.st3{font-size:91px;}
+</style>
+<g id="Calque_2_00000127764002062747518350000000756503184012066982_">
+	<g id="Calque_1-2">
+		<path class="st0" d="M152,84.6c0,9.8-0.1,19.7,0,29.5c0.2,9.3-3.4,16.3-11.7,21c-17.7,10-35.2,20.1-52.7,30.4
+			c-8,4.7-15.5,4.6-23.5-0.1c-17.3-10.2-34.7-20.3-52.2-30.2C3.8,130.6,0,124,0,114.9c0.1-20.1,0.1-40.3,0-60.5
+			C0,45,3.8,38.3,12.1,33.7c17.5-9.8,35-19.9,52.3-30.2c7.8-4.6,15.3-4.7,23.1-0.1c18.1,10.6,36.2,21,54.4,31.5
+			c7.5,4.3,10.2,11.1,10.2,19.2C152,64.2,152,74.4,152,84.6z"/>
+		<text transform="matrix(1 0 0 1 30.45 127.87)" class="st1 st2 st3">v</text>
+	</g>
+</g>
+</svg>
