@@ -14,6 +14,7 @@ import js from '../public/icons-lang/js.webp'
 import html from '../public/icons-lang/html.png'
 import css from '../public/icons-lang/css.png'
 import maps from '../public/icons/maps.png'
+import card from '../public/icons/card.png'
 import nxtcloud from '../public/icons/nxt.png'
 import video from '../public/icons/video.png'
 import trophy from '../public/icons/trophy.png'
@@ -52,7 +53,7 @@ export default function Creations() {
                   <div className="allergo m-1">
                   </div>
                   <Image src={maps} className="icon-genre"       alt="Picture of the author"
- />
+ />               <p className="text-light lato etat">{"{Terminé}"}</p>
                   <h5 className="title-project lato">GEOCODING</h5>
                   </Link>
               </div>
@@ -61,8 +62,9 @@ export default function Creations() {
                   <div className="vtube m-1">
                   </div>
                   <Image src={video} className="icon-genre"       alt="Picture of the author"
- />
-                  <h5 className="title-project lato">VTUBE</h5>
+ />              <p className="text-light lato etat">{"{En Cours}"}</p>
+
+                  <h5 className="title-project lato">VIDEO PLATFORM</h5>
                   </Link>
                   </div>
                   <div className='strip'>           
@@ -70,7 +72,8 @@ export default function Creations() {
                   <div className="coding m-1">
                   </div>
                   <Image src={nxtcloud} className="icon-genre"       alt="Picture of the author"
-/>
+/>           <p className="text-light lato etat">{"{Terminé}"}</p>
+
                   <h5 className="title-project lato">FILES WATCHER</h5>
                   </Link>
                   </div>
@@ -79,19 +82,31 @@ export default function Creations() {
                   <div className="ladder m-1">
                   </div>
                   <Image src={trophy} className="icon-genre"       alt="Picture of the author"
-/>
-                  <h5 className="title-project lato">TOURNAMENT</h5>
+/>           <p className="text-light lato etat">{"{Terminé}"}</p>
+
+                  <h5 className="title-project lato">ESPORT PLATFORM</h5>
                   </Link>
                   
                   </div>
                 <div className="row justify-content-center mt-3">
                   <div className='strip'>  
                   <Link href="/game">
-                  <div className="ladder m-1">
+                  <div className="game m-1">
                   </div>
-                  <Image       alt="Picture of the author"
- src={joystick} className="icon-genre" />
-                  <h5 className="title-project lato">GAME</h5>
+                  <Image alt="Picture of the author" src={joystick} className="icon-genre" />
+                     <p className="text-light lato etat">{"{En Cours}"}</p>
+
+                  <h5 className="title-project lato">RPG NAVIGATEUR</h5>
+                  </Link>
+                  </div>
+                  <div className='strip'>  
+                  <Link href="/game">
+                  <div className="cardgame m-1">
+                  </div>
+                  <Image alt="Picture of the author" src={card} className="icon-genre" />
+                     <p className="text-light lato etat">{"{En Cours}"}</p>
+
+                  <h5 className="title-project lato">CARD GAME</h5>
                   </Link>
                   </div>
                 </div>

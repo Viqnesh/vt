@@ -66,7 +66,7 @@ export default function Geocode() {
               <div className="justify-content-center inline-flex ">
                 <div className="row">
               <div className="col">
-              <Image  alt="Picture of the author" src={mini1} width={1400} />
+              <Image  alt="Picture of the author" src={mini1} width={1800}/>
               </div>
               <div className="col">
               <Image  alt="Picture of the author" src={mini2} width={1400} />

@@ -136,6 +136,16 @@ body {
     font-size: 35px;
     font-weight: 800;
   }
+  .etat {
+    z-index: 200;
+    position: absolute;
+    left: 10px;
+    right: 0px;
+    top: 25px;
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+  }
   .coding {
     background-image: url('../public/icons/coding.jpeg');
     filter: brightness(0.5);
@@ -237,5 +247,19 @@ li {
     background-image: url('../public/projets/miniature-ladder.png');
     filter: brightness(0.5);
     background-size: cover;
+    height: 100%;
+  }
+
+  .game {
+    background-image: url('../public/projets/miniature-game.png');
+    filter: brightness(0.5);
+    background-size: cover;
+    height: 100%;
+  }
+  .cardgame {
+    background-image: url(/_next/static/media/miniature-card.b8ad3a21.png);
+    filter: brightness(0.5);
+    background-size: cover;
+    background-position-x: right;
     height: 100%;
   }
