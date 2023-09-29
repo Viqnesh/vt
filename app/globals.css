@@ -1,0 +1,241 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@font-face {
+  font-family: Roob;
+  src: url(../public/fonts/Roobert-Regular.ttf);
+}
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  background-color: #1F1F1F!important ;
+  text-align: center!important;
+  height: 100%!important;
+  font-family: 'Roob'!important;
+}
+
+.title {
+  font-size: 100px ;
+  color: #fff!important;
+}
+.project-title {
+  font-size: 50px ;
+  color: #fff!important;
+}
+.title-space {
+  font-size: 100px ;
+  letter-spacing: 15px;
+}
+.sub-title {
+  font-size : 70px;
+  color: #fff;
+}
+
+.filtre-inv {
+  filter: invert(1);
+}
+.lato {
+  font-family: Roob;
+}
+.text-initial {
+  text-align: initial;
+}
+.logov {
+  margin-left: auto;
+    margin-right: auto;
+}
+.icon-genre {
+  width: 160px;
+  /* margin: 50% 23% 14% 23%; */
+  z-index: 200;
+  position: absolute;
+  left: 150px;
+  right: 0px;
+  bottom: 200px;
+}
+.badge-project {
+  width: 120px;
+  /* margin: 50% 23% 14% 23%; */
+  z-index: 200;
+  position: absolute;
+  /* left: 150px; */
+  /* right: 0px; */
+  bottom: 460px;
+}
+.strip {
+  height: 550px;
+  width: 450px;
+  position: relative;
+  }  
+  
+.strip .ribbon {
+  display: block;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  z-index: 9000;
+}
+  .skyblue {
+    background-color: skyblue;
+  }
+  .allergo {
+    background-image: url('../public/projets/miniature-allergo.png');
+    filter: brightness(0.5);
+    height: 100%;
+  }
+  .vtube {
+    background-image: url('../public/projets/miniature-vtube.png');
+    filter: brightness(0.5);
+    background-size: cover;
+    height: 100%;
+  }
+  .creat-title {
+    font-size: 50px ;
+  }
+  .creat-sub-title {
+    font-size: 50px ;
+    color: white;
+  }
+  .description {
+    font-size : 25px;
+    color: white;
+    text-align: initial;
+  }
+  .map-finder-banner {
+    background-image: url('../public/projets/miniature-allergo.png');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title-project {
+    z-index: 200;
+    position: absolute;
+    left: 10px;
+    right: 0px;
+    bottom: 35px;
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+  }
+  .coding {
+    background-image: url('../public/icons/coding.jpeg');
+    filter: brightness(0.5);
+    background-size: cover;
+    height: 100%;
+  
+  }
+
+  .menu {
+    width: 300px;
+    height: 0px;
+    margin-top: 3%;
+    margin-left: auto;
+  }
+  .slideshow {
+    width: 780px;
+  }
+  .prev {
+    left: 10px;
+    transform: scale(-1);
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .text-grey {
+    color: #8a8a8a;
+  }
+  .margin-auto {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .technos {
+    color: white;
+    background: none!important;
+    text-align: initial;
+  }
+
+  .spacing-minus {
+    letter-spacing: -2px;
+    font-size: 35px;
+  }
+
+  .next {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  button {
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    cursor: pointer;
+    width: fit-content;
+    height: 50px;
+    text-align: left;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: white;
+  color: black;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+}
+.item2 {
+  width: 100px;
+  height: 100px;
+}
+li {
+  color: var(--background);
+  display: block;
+  font-family: Roob;
+  font-weight: 800;
+}
+.lightgreen {
+    background-color: lightgreen ;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  .ladder {
+    background-image: url('../public/projets/miniature-ladder.png');
+    filter: brightness(0.5);
+    background-size: cover;
+    height: 100%;
+  }
