@@ -21,7 +21,7 @@ import trophy from '../public/icons/trophy.png'
 import joystick from '../public/icons/gaming.png'
 import perso from '../public/badges/perso.png'
 import pro from '../public/badges/pro.png'
-
+import chatapp from '../public/projets/chatapp.png'
 
 import { TypeAnimation } from 'react-type-animation';
 const langs = [
@@ -52,39 +52,31 @@ export default function Creations() {
                   <Link href="/geocode">
                   <div className="allergo m-1">
                   </div>
-                  <Image src={maps} className="icon-genre"       alt="Picture of the author"
- />               <p className="text-light lato etat">{"{Terminé}"}</p>
-                  <h5 className="title-project lato">GEOCODING</h5>
+             <p className="text-light lato etat">{"{Terminé}"}</p>
                   </Link>
               </div>
               <div className='strip'>
                   <Link href="/vtube">
                   <div className="vtube m-1">
                   </div>
-                  <Image src={video} className="icon-genre"       alt="Picture of the author"
- />              <p className="text-light lato etat">{"{En Cours}"}</p>
+        <p className="text-light lato etat">{"{En Cours}"}</p>
 
-                  <h5 className="title-project lato">VIDEO PLATFORM</h5>
                   </Link>
                   </div>
                   <div className='strip'>           
                   <Link href="/filewatcher">
                   <div className="coding m-1">
                   </div>
-                  <Image src={nxtcloud} className="icon-genre"       alt="Picture of the author"
-/>           <p className="text-light lato etat">{"{Terminé}"}</p>
+      <p className="text-light lato etat">{"{Terminé}"}</p>
 
-                  <h5 className="title-project lato">FILES WATCHER</h5>
                   </Link>
                   </div>
                   <div className='strip'>   
                   <Link href="/tournament">
                   <div className="ladder m-1">
                   </div>
-                  <Image src={trophy} className="icon-genre"       alt="Picture of the author"
-/>           <p className="text-light lato etat">{"{Terminé}"}</p>
+          <p className="text-light lato etat">{"{Terminé}"}</p>
 
-                  <h5 className="title-project lato">ESPORT PLATFORM</h5>
                   </Link>
                   
                   </div>
@@ -93,20 +85,34 @@ export default function Creations() {
                   <Link href="/game">
                   <div className="game m-1">
                   </div>
-                  <Image alt="Picture of the author" src={joystick} className="icon-genre" />
                      <p className="text-light lato etat">{"{En Cours}"}</p>
 
-                  <h5 className="title-project lato">RPG NAVIGATEUR</h5>
+                  </Link>
+                  </div>
+
+                  <div className='strip'>  
+                  <Link href="/game">
+                    <div className='cardgame2 m-1'>
+
+                    </div>
+                     <p className="text-light lato etat">{"{En Cours}"}</p>
+                  </Link>
+                  </div>
+
+                  <div className='strip'>  
+                  <Link href="/chatting">
+                  <div className="chatapp m-1">
+                  </div>
+                     <p className="text-light lato etat">{"{Terminé}"}</p>
+
                   </Link>
                   </div>
                   <div className='strip'>  
-                  <Link href="/game">
-                  <div className="cardgame m-1">
+                  <Link href="/chatting">
+                  <div className="adminpanel m-1">
                   </div>
-                  <Image alt="Picture of the author" src={card} className="icon-genre" />
-                     <p className="text-light lato etat">{"{En Cours}"}</p>
+                     <p className="text-light lato etat">{"{Terminé}"}</p>
 
-                  <h5 className="title-project lato">CARD GAME</h5>
                   </Link>
                   </div>
                 </div>

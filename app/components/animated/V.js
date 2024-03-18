@@ -1,10 +1,15 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import LogoV from '../../../public/Logo/vtcolor.png'
+import vtdev from '../../../public/Logo/vtdev.png'
+import charcoal from '../../../public/Logo/charcoal.png'
+import { TypeAnimation } from 'react-type-animation';
+
 
 const AnimatedImage = () => {
   return (
-    <div>
+
+    <div className='h25 mt-5'>
         <motion.img
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -14,9 +19,15 @@ const AnimatedImage = () => {
               }}
           src={LogoV.src}
           className='logov' 
-          width={250} 
-          height={250} 
+          width={220} 
+          height={220} 
           alt="Picture of the author" />
+        <div className='infoss'>
+        <h1 className="title fw-bold lato mt-5">Vignesh Tillaisababady</h1>
+        <h1 className="sub-title fw-bold lato">Développeur Full-Stack</h1>
+        <h1 className="sub-title fw-bold lato">25 ans</h1>
+        </div>
+
     </div>
   );
 };

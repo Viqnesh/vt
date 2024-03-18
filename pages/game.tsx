@@ -22,10 +22,18 @@ import github from '../public/Logo/github.png'
 import perso from '../public/badges/perso.png'
 import pro from '../public/badges/pro.png'
 import githubwh from '../public/Logo/github_logo.png'
+import ws from '../public/ab/ws.jpg'
+import njs from '../public/ab/njs.png'
+import sql from '../public/ab/mysql.png'
 import mini1 from '../public/rpg/rpg1.png'
 import mini2 from '../public/rpg/rpg2.png'
 import mini3 from '../public/rpg/rpg3.png'
+import mini4 from '../public/rpg/rpg4.png'
+import mini5 from '../public/rpg/rpg5.png'
 
+import favicon from '../public/icon_white.png'
+import logo from '../public/logo.png'
+import Back from '../app/components/Back'
 import { motion, AnimatePresence } from "framer-motion";
 import { wrap } from "popmotion";
 import { useState } from 'react'
@@ -52,16 +60,56 @@ export default function Geocode() {
   };
   return (<div className='container-fluid'>
       <div className="container">
-        <Navbar></Navbar>
+        <Back></Back>
 
       </div>
           <div className="container mt-5">
           <div className="project-title mt-5 fw-bold text-light lato text-initial">
-            RPG
+            MOBILE GAME
           </div>
-          <p className="fw-bold text-justify text-initial text-grey w-100 mt-4">C`&apos;`est un service qui permet d`&apos;`effectuer une recherche en fonction d`&apos;`une adresse et d`&apos;`une spécialité d`&apos;`allergologue. Avec ses données, Go Allergo affiche 
-            les allergologues se trouvant le plus proche de l`&apos;`adresse saisie. Ensuite vous pouvez prendre contactez directement avec le spécialiste de votre choix.</p>
+          <p className="fw-bold text-justify text-initial text-light w-100 m-5">Dendam est une application de discussion pour pouvoir communiquer avec vos amis. L'application posséde plusieurs fonctionnalités. On peut avoir avoir des discussions avec les amis que l'on a ajouté, on peut éditer notre profil et on peut également voir qui est également le statut des autres utilisateurs(en ligne, hors ligne, absent).</p>
           <div className="text-center mt-5">
+          <div className='flex m-5'>
+            <div className='col-3'>
+              <h3 className='lang-desc text-left sub-title fw-bold'>Logo</h3>
+            </div>
+
+          </div>
+            <div className='flex m-5'>
+            <h3 className='lang-desc text-left sub-title fw-bold colorS'> Séléction des couleurs  </h3>
+            <div className='codeMPrim mtb'>#1D3249</div>
+            <div className='codeMSec mtb'>#FFF4D5</div>
+            <div className='codeMTh mtb'>#FFFFFF</div>
+            </div>
+            <div className='flex'>
+
+                <div className="col-4 inline-flex m-3">
+                <Image src={react} alt="Picture of the author" width={140} className="m-4"/>
+                <p className='lang-desc'>Lorem Ipsum Lorem Ipsum</p>
+                </div>
+
+                <div className="col-4 inline-flex m-3">
+                <Image src={ws} alt="Picture of the author" width={180} className="m-4"/>
+                <p className='lang-desc'>Lorem Ipsum Lorem Ipsum</p>
+                </div>
+
+                <div className="col-4 inline-flex m-3">
+                <Image src={njs} alt="Picture of the author" width={160} className="filtre-inv m-4"/>
+                <p className='lang-desc'>Lorem Ipsum Lorem Ipsum</p>
+                </div>
+            </div>
+            <div className='flex'>
+                <div className="col-4 inline-flex m-3">
+                <Image src={sql} alt="Picture of the author" width={180} className="m-4"/>
+                <p className='lang-desc'>Lorem Ipsum Lorem Ipsum</p>
+                </div>
+
+                <div className="col-4 inline-flex m-3">
+                <Image src={js} alt="Picture of the author" width={120} className="m-4"/>
+                <p className='lang-desc'>Lorem Ipsum Lorem Ipsum</p>
+                </div>
+            </div>
+
 
               <div className="justify-content-center inline-flex ">
                 <div className="row">
@@ -74,53 +122,18 @@ export default function Geocode() {
               <div className="col">
               <Image  alt="Picture of the author" src={mini3} width={1400} />
               </div>
+              <div className="col">
+              <Image  alt="Picture of the author" src={mini4} width={1400} />
+              </div>
+              <div className="col">
+              <Image  alt="Picture of the author" src={mini5} width={1400} />
+              </div>
             </div>
               </div>
 
           </div>
-          <div className="container">
-            <div className="project-title fw-bold lato text-initial"> TECHNOS </div>
-            <hr></hr>
-            <div className="d-flex mt-5">
-                <div className="col">
-                <Image src={js} alt="Picture of the author" width={100} className="margin-auto"/>
-                  <h3 className="lato text-light fw-bold">JAVASCRIPT</h3>
-
-                </div>
-                <div className="col">
-                <Image src={symfony} alt="Picture of the author" width={100} className="margin-auto"/>
-                  <h3 className="lato text-light fw-bold">SYMFONY</h3>
-
-                </div>
-                <div className="col">
-                <Image src={css}  alt="Picture of the author" width={100} className="margin-auto"/>
-                  <h3 className="lato text-light fw-bold">CSS</h3>
-
-                </div>
-                <div className="col">
-                <Image src={html} alt="Picture of the author" width={100} className="margin-auto"/>
-                  <h3 className="lato text-light fw-bold">HTML</h3>
-                </div>
-                <div className="col">
-                <Image src={phaser} alt="Picture of the author" width={120} className="margin-auto"/>
-                  <h3 className="lato text-light fw-bold">PHASER</h3>
-                </div>
-              </div>
-              <div className="mt-5 text-left">
-                <div className="project-title mt-5 fw-bold lato text-initial"> LIENS </div>
-                <hr></hr>
-                <div className="d-flex mb-5 mt-5">
-                <div className="col-5">
-                <Image src={githubwh} alt="Picture of the author" width={150} className="margin-auto"/>
-                </div>
-                <div className="col-5">
-                <Image src={website} alt="Picture of the author" width={150} className="margin-auto"/>
-                </div>
-              </div>
-              </div>
-
-
-            </div>          
+          <div className="d-flex mb-5 mt-5">
+              </div>    
           </div>
           </div>
   )

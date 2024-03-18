@@ -5,6 +5,9 @@ import '../app/globals.css' ;
 
 import LogoV from '../public/Logo/VT - Color.svg'
 import symfony from '../public/icons-lang/symfony.png'
+import nxtscreen from '../public/fw/netxcloud.webp'
+import fwscreen from '../public/fw/folderscreen.png'
+
 import react from '../public/icons-lang/react.png'
 import boot from '../public/icons-lang/boot.svg'
 import js from '../public/icons-lang/js.webp'
@@ -59,19 +62,21 @@ export default function Geocode() {
           <div className='project-title mt-5 fw-bold text-light lato text-initial'>
             FILES WATCHER
           </div>
-          <p className='fw-bold text-justify text-initial text-grey w-100 mt-4'>Système qui permet de surveiller des dossiers sur un serveur Nextcloud à distance</p>
+          <p className='fw-bold text-justify text-initial text-grey w-100 mt-4'>Système qui permet de surveiller des dossiers sur un serveur Nextcloud à distance. 
+          Un fichier présent dans le repertoire Nextcloud est surveillé en temps réel par un script. 
+          A chaque modification effectué sur le fichier en question, une notification appraît sur le terminal où le script est executé pour 
+          prevenir qu'un fichier à été modifié et un nouveau ficheir est créer avec les nouvelles données.</p>
           <div className="text-center mt-5">
 
               <div className="justify-content-center inline-flex ">
                 <div className="row">
               <div className="col">
-              <Image  alt="Picture of the author" src={mini1} width={1000} />
+              <Image  alt="Picture of the author" src={fwscreen} width={1000} />
               </div>
               <div className="col">
-              <Image  alt="Picture of the author" src={mini2} width={1000} />
+              <Image  alt="Picture of the author" src={nxtscreen} width={1000} />
               </div>
               <div className="col">
-              <Image  alt="Picture of the author" src={mini3} width={1000} />
               </div>
             </div>
               </div>
@@ -103,7 +108,6 @@ export default function Geocode() {
                 <Image src={githubwh} alt="Picture of the author" width={150} className='margin-auto'/>
                 </div>
                 <div className="col-5">
-                <Image src={website} alt="Picture of the author" width={150} className='margin-auto'/>
                 </div>
               </div>
               </div>

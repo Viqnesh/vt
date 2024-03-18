@@ -19,7 +19,13 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+.infoss {
+  display: flex;
+  flex-direction: column;
+  place-content: baseline;
+  text-align: justify;
+  margin-right: 2%;
+}
 body {
   background-color: #1F1F1F!important ;
   text-align: center!important;
@@ -28,20 +34,21 @@ body {
 }
 
 .title {
-  font-size: 100px ;
-  color: #fff!important;
+  font-size: 60px ;
+  color: white;
+  text-align: left;
 }
 .project-title {
   font-size: 50px ;
-  color: #fff!important;
 }
 .title-space {
   font-size: 100px ;
   letter-spacing: 15px;
 }
 .sub-title {
-  font-size : 70px;
-  color: #fff;
+  font-size : 40px;
+  color: white;
+
 }
 
 .filtre-inv {
@@ -53,9 +60,53 @@ body {
 .text-initial {
   text-align: initial;
 }
+.h25 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.ability {
+  width: 18rem;
+  align-items: center;
+  padding: 13%;
+  height: 13rem;
+  border-radius: 28px!important;
+
+}
+.socialm:hover {
+  filter: invert(1);
+} 
+.socialme:hover {
+  filter: invert(0);
+
+} 
+.creabox {
+  transition: all 0.3s ease-in-out;
+
+}
+.creabox:hover {
+  -webkit-transform: translateY(-15px) scale(1.005);
+  transform: translateY(-15px) scale(1.005);
+}
+.cursorp {
+  cursor: pointer;
+}
+.ability2 {
+  width: 42rem;
+  align-items: center;
+  padding: 13%;
+  height: 20rem;
+
+}
+.ability img {
+  margin-top: auto!important;
+  margin-bottom: auto!important;
+}
 .logov {
-  margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto; */
+    margin-right: 4%;
+    /* margin-right: auto; */
+    margin-bottom: 2%;
 }
 .icon-genre {
   width: 160px;
@@ -76,8 +127,8 @@ body {
   bottom: 460px;
 }
 .strip {
-  height: 550px;
-  width: 450px;
+  height: 500px;
+  width: 400px;
   position: relative;
   }  
   
@@ -95,14 +146,114 @@ body {
   }
   .allergo {
     background-image: url('../public/projets/miniature-allergo.png');
-    filter: brightness(0.5);
-    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  .chatapp {
+    background-image: url('../public/projets/chatapp.png');
+    background-size: cover;
+    background-position: center;
+
+  }
+  .adminpanel {
+    background-image: url('../public/projets/adminpanel.png');
+    background-size: cover;
+    background-position: center;
+
   }
   .vtube {
     background-image: url('../public/projets/miniature-vtube.png');
-    filter: brightness(0.5);
     background-size: cover;
     height: 100%;
+    background-position: center;
+  }
+  .cardgame2 {
+    background-image: url('../public/projets/miniature-card.png');
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+  }
+  .ecommerce {
+    background-image: url('../public/screens/ecommerce.png');
+    background-size: cover;
+    background-position: center;
+
+  }
+  .chatting {
+    background-image: url('../public/screens/screens.jpg');
+    background-size: auto;
+    background-position: center;  
+  }
+  .geoc {
+    background-image: url('../public/screens/allergo2.png');
+    background-size: cover;
+    background-position: center;  
+  }
+  .fridge {
+    background-image: url('../public/screens/FridgeAppAdd.png');
+    background-size: cover;
+    background-position: center; 
+  }
+  .wiki {
+    background-image: url('../public/screens/wiki.jpg');
+    background-size: cover;
+    background-position: center;  
+  }
+  .tirudan {
+    background-image: url('../public/rpg/rpg1.png');
+    background-size: auto;
+    background-position: center;
+    height: 100%;
+  }
+  .codeCPrim {
+    width: 120px;
+    height: 120px;
+    background-color: #FF4C70;
+    margin-right: 2%;
+  }
+  .codeMPrim {
+    width: 120px;
+    height: 120px;
+    background-color: #22374D;
+    margin-right: 2%;
+  }
+  .codeMSec {
+    width: 120px;
+    height: 120px;
+    background-color: #F7EFD0;
+    margin-right: 2%;
+  }
+  .codeMTh {
+    width: 120px;
+    height: 120px;
+    background-color: #FFFFFF;
+    margin-right: 2%;
+  }
+  .codeCSec {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    margin-right: 2%;
+  }
+  .colorS {
+    margin-right: 2%;
+  }
+  .lang-desc {
+    margin-bottom: auto;
+    margin-top:auto;
+    color: white;
+  }
+  .codeCTh {
+    width: 120px;
+    height: 120px;
+    background-color: skyblue;
+  }
+  .ribbonTAG {
+    background-color: skyblue;
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+    color: white;
   }
   .creat-title {
     font-size: 50px ;
@@ -148,12 +299,15 @@ body {
   }
   .coding {
     background-image: url('../public/icons/coding.jpeg');
-    filter: brightness(0.5);
     background-size: cover;
-    height: 100%;
-  
-  }
+    background-position: center;
 
+  }
+  .esport {
+    background-size: cover;
+    background-position: center;
+    background-image: url('../public/ab/ladder.png')
+  }
   .menu {
     width: 300px;
     height: 0px;
@@ -172,9 +326,26 @@ body {
   .text-grey {
     color: #8a8a8a;
   }
+  .btn-back {
+    color: black;
+    background-color: white;
+    width: 200px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 30px;
+
+  }
+  .btn-back:hover {
+    border: 3px solid white;
+    color: white;
+  }
   .margin-auto {
     margin-right: auto;
     margin-left: auto;
+  }
+  .mtb {
+    margin-top: auto;
+    margin-bottom: auto;
   }
   .technos {
     color: white;
@@ -245,16 +416,16 @@ li {
   }
   .ladder {
     background-image: url('../public/projets/miniature-ladder.png');
-    filter: brightness(0.5);
     background-size: cover;
     height: 100%;
+    background-position: center;
   }
 
   .game {
     background-image: url('../public/projets/miniature-game.png');
-    filter: brightness(0.5);
     background-size: cover;
     height: 100%;
+    background-position: center;
   }
   .cardgame {
     background-image: url(/_next/static/media/miniature-card.b8ad3a21.png);

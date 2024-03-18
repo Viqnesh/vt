@@ -57,7 +57,7 @@ export default function Geocode() {
       </div>
           <div className="container mt-5">
           <div className="project-title mt-5 fw-bold text-light lato text-initial">
-            TOURNAMENT
+            ESPORT PLATFORM
           </div>
           <p className="fw-bold text-justify text-initial text-grey w-100 mt-4">Plateforme de compétitions en ligne qui permet de s`&apos;`inscrire à des ligues pour affronter d`&apos;`autres equipes.</p>
           <div className="text-center mt-5">

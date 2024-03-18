@@ -8,7 +8,12 @@ import github from '../../public/Logo/github.png'
 import menu from '../../public/Logo/menu.png'
 import malt from '../../public/Logo/malt.png'
 import linked from '../../public/Logo/linked.png'
-import logoV from '../../public/Logo/vtcolor.png'
+import logoV from '../../public/Logo/charcoal.png'
+import instagram from '../../public/Logo/insta.webp'
+import mail from '../../public/Logo/mail.svg'
+import tel from '../../public/Logo/tel.png'
+import cv from '../../public/Logo/cv.webp'
+
 const itemVariants = {
   open: {
     opacity: 1,
@@ -25,19 +30,22 @@ function Navbar() {
   return (<>
     <div className='row'>
       <div className='d-flex'>
-      <div className='col text-left mt-4'>
-      <Image  alt="Picture of the author" width={50} className="m-2 inline-flex" src={github} />
-      <Image  alt="Picture of the author" width={50} className="m-2 inline-flex" src={linked} />
-      <Image  alt="Picture of the author" width={50} className="m-2 inline-flex" src={malt} />
-      </div>
-      <div>
-        <Image  alt="Picture of the author" width={80} className="m-4 inline-flex" src={logoV} />
-      </div>
-      <div className='col text-right mt-4'>
-      <p className="lato fw-bold text-light spacing-minus inline-flex m-2"><Link href="/">accueil</Link></p>
-      <p className="lato fw-bold text-light spacing-minus inline-flex m-2"><Link href="/creations">creations</Link></p>
-      <p className="lato fw-bold text-light spacing-minus inline-flex m-2"><Link href="/">moi</Link></p>
-      </div>
+        <div className='col-6 text-left mt-4'>
+          <div>
+          <Link href="https://github.com/Viqnesh"><Image  alt="Picture of the author" width={50} className="m-2 inline-flex socialm" src={github} /></Link>
+          <Link href="https://fr.linkedin.com/in/vignesh-tillaisababady-908a3626a"><Image  alt="Picture of the author" width={50} className="m-2 inline-flex socialm" src={linked} /></Link>
+          <Link href="https://www.instagram.com/vigneshtdev/"><Image  alt="Picture of the author" width={50} className="m-2 inline-flex socialm" src={instagram} /></Link>
+          </div>
+        </div>
+        <div className='col-6 text-end mt-4'>
+          <div className='inline-flex'>
+          <Link href="/cv.pdf"><Image  alt="Picture of the author" width={50} className="m-2 inline-flex filtre-inv socialme" src={cv} /></Link>
+          <a className="cursorp socialm" onClick={() => alert("06 46 43 73 55") }><Image  alt="Picture of the author" width={50} className="m-2 inline-flex filtre-inv socialm" src={tel} /></a>
+          <Link href="mailto:vignesht.pro@gmail.com"><Image  alt="Picture of the author" width={50} className="m-2 inline-flex filtre-inv socialme" src={mail} /></Link>
+
+          </div>
+
+        </div>
       </div>
 
     </div></>
