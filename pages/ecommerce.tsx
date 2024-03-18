@@ -77,7 +77,7 @@ export default function Ecommerce() {
 
           </div>
             <div className='flex m-5'>
-            <h3 className='lang-desc text-left sub-title fw-bold colorS'> Séléction des couleurs  </h3>
+            <h3 className='lang-desc text-left sub-title fw-bold colorS'> Selection des couleurs  </h3>
             <div className='codeCPrim mtb'>#FF4C70</div>
             <div className='codeCSec mtb'>#FFFFFF</div>
             <div className='codeCTh mtb'>#87CEEB</div>
