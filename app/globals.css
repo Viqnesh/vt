@@ -11,7 +11,10 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
-
+a {
+  text-decoration: none!important;
+  color: inherit!important;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -69,7 +72,7 @@ body {
   width: 18rem;
   align-items: center;
   padding: 13%;
-  height: 13rem;
+  height: 13rem!important;
   border-radius: 28px!important;
 
 }
