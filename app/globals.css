@@ -1,0 +1,436 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@font-face {
+  font-family: Roob;
+  src: url(../public/fonts/Roobert-Regular.ttf);
+}
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+.infoss {
+  display: flex;
+  flex-direction: column;
+  place-content: baseline;
+  text-align: justify;
+  margin-right: 2%;
+}
+body {
+  background-color: #1F1F1F!important ;
+  text-align: center!important;
+  height: 100%!important;
+  font-family: 'Roob'!important;
+}
+
+.title {
+  font-size: 60px ;
+  color: white;
+  text-align: left;
+}
+.project-title {
+  font-size: 50px ;
+}
+.title-space {
+  font-size: 100px ;
+  letter-spacing: 15px;
+}
+.sub-title {
+  font-size : 40px;
+  color: white;
+
+}
+
+.filtre-inv {
+  filter: invert(1);
+}
+.lato {
+  font-family: Roob;
+}
+.text-initial {
+  text-align: initial;
+}
+.h25 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.ability {
+  width: 18rem;
+  align-items: center;
+  padding: 13%;
+  height: 13rem;
+  border-radius: 28px!important;
+
+}
+.socialm:hover {
+  filter: invert(1);
+} 
+.socialme:hover {
+  filter: invert(0);
+
+} 
+.creabox {
+  transition: all 0.3s ease-in-out;
+
+}
+.creabox:hover {
+  -webkit-transform: translateY(-15px) scale(1.005);
+  transform: translateY(-15px) scale(1.005);
+}
+.cursorp {
+  cursor: pointer;
+}
+.ability2 {
+  width: 42rem;
+  align-items: center;
+  padding: 13%;
+  height: 20rem;
+
+}
+.ability img {
+  margin-top: auto!important;
+  margin-bottom: auto!important;
+}
+.logov {
+    /* margin-left: auto; */
+    margin-right: 4%;
+    /* margin-right: auto; */
+    margin-bottom: 2%;
+}
+.icon-genre {
+  width: 160px;
+  /* margin: 50% 23% 14% 23%; */
+  z-index: 200;
+  position: absolute;
+  left: 150px;
+  right: 0px;
+  bottom: 200px;
+}
+.badge-project {
+  width: 120px;
+  /* margin: 50% 23% 14% 23%; */
+  z-index: 200;
+  position: absolute;
+  /* left: 150px; */
+  /* right: 0px; */
+  bottom: 460px;
+}
+.strip {
+  height: 500px;
+  width: 400px;
+  position: relative;
+  }  
+  
+.strip .ribbon {
+  display: block;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  z-index: 9000;
+}
+  .skyblue {
+    background-color: skyblue;
+  }
+  .allergo {
+    background-image: url('../public/projets/miniature-allergo.png');
+    background-size: cover;
+    background-position: center;
+  }
+  .chatapp {
+    background-image: url('../public/projets/chatapp.png');
+    background-size: cover;
+    background-position: center;
+
+  }
+  .adminpanel {
+    background-image: url('../public/projets/adminpanel.png');
+    background-size: cover;
+    background-position: center;
+
+  }
+  .vtube {
+    background-image: url('../public/projets/miniature-vtube.png');
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+  }
+  .cardgame2 {
+    background-image: url('../public/projets/miniature-card.png');
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+  }
+  .ecommerce {
+    background-image: url('../public/screens/ecommerce.png');
+    background-size: cover;
+    background-position: center;
+
+  }
+  .chatting {
+    background-image: url('../public/screens/screens.jpg');
+    background-size: auto;
+    background-position: center;  
+  }
+  .geoc {
+    background-image: url('../public/screens/allergo2.png');
+    background-size: cover;
+    background-position: center;  
+  }
+  .fridge {
+    background-image: url('../public/screens/FridgeAppAdd.png');
+    background-size: cover;
+    background-position: center; 
+  }
+  .wiki {
+    background-image: url('../public/screens/wiki.jpg');
+    background-size: cover;
+    background-position: center;  
+  }
+  .tirudan {
+    background-image: url('../public/rpg/rpg1.png');
+    background-size: auto;
+    background-position: center;
+    height: 100%;
+  }
+  .codeCPrim {
+    width: 120px;
+    height: 120px;
+    background-color: #FF4C70;
+    margin-right: 2%;
+  }
+  .codeMPrim {
+    width: 120px;
+    height: 120px;
+    background-color: #22374D;
+    margin-right: 2%;
+  }
+  .codeMSec {
+    width: 120px;
+    height: 120px;
+    background-color: #F7EFD0;
+    margin-right: 2%;
+  }
+  .codeMTh {
+    width: 120px;
+    height: 120px;
+    background-color: #FFFFFF;
+    margin-right: 2%;
+  }
+  .codeCSec {
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    margin-right: 2%;
+  }
+  .colorS {
+    margin-right: 2%;
+  }
+  .lang-desc {
+    margin-bottom: auto;
+    margin-top:auto;
+    color: white;
+  }
+  .codeCTh {
+    width: 120px;
+    height: 120px;
+    background-color: skyblue;
+  }
+  .ribbonTAG {
+    background-color: skyblue;
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+    color: white;
+  }
+  .creat-title {
+    font-size: 50px ;
+  }
+  .creat-sub-title {
+    font-size: 50px ;
+    color: white;
+  }
+  .description {
+    font-size : 25px;
+    color: white;
+    text-align: initial;
+  }
+  .map-finder-banner {
+    background-image: url('../public/projets/miniature-allergo.png');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .title-project {
+    z-index: 200;
+    position: absolute;
+    left: 10px;
+    right: 0px;
+    bottom: 35px;
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+  }
+  .etat {
+    z-index: 200;
+    position: absolute;
+    left: 10px;
+    right: 0px;
+    top: 25px;
+    color: white;
+    font-size: 35px;
+    font-weight: 800;
+  }
+  .coding {
+    background-image: url('../public/icons/coding.jpeg');
+    background-size: cover;
+    background-position: center;
+
+  }
+  .esport {
+    background-size: cover;
+    background-position: center;
+    background-image: url('../public/ab/ladder.png')
+  }
+  .menu {
+    width: 300px;
+    height: 0px;
+    margin-top: 3%;
+    margin-left: auto;
+  }
+  .slideshow {
+    width: 780px;
+  }
+  .prev {
+    left: 10px;
+    transform: scale(-1);
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .text-grey {
+    color: #8a8a8a;
+  }
+  .btn-back {
+    color: black;
+    background-color: white;
+    width: 200px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 30px;
+
+  }
+  .btn-back:hover {
+    border: 3px solid white;
+    color: white;
+  }
+  .margin-auto {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .mtb {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .technos {
+    color: white;
+    background: none!important;
+    text-align: initial;
+  }
+
+  .spacing-minus {
+    letter-spacing: -2px;
+    font-size: 35px;
+  }
+
+  .next {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  button {
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    cursor: pointer;
+    width: fit-content;
+    height: 50px;
+    text-align: left;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: white;
+  color: black;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+}
+.item2 {
+  width: 100px;
+  height: 100px;
+}
+li {
+  color: var(--background);
+  display: block;
+  font-family: Roob;
+  font-weight: 800;
+}
+.lightgreen {
+    background-color: lightgreen ;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  .ladder {
+    background-image: url('../public/projets/miniature-ladder.png');
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+  }
+
+  .game {
+    background-image: url('../public/projets/miniature-game.png');
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+  }
+  .cardgame {
+    background-image: url(/_next/static/media/miniature-card.b8ad3a21.png);
+    filter: brightness(0.5);
+    background-size: cover;
+    background-position-x: right;
+    height: 100%;
+  }
