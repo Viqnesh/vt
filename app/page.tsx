@@ -64,7 +64,7 @@ const item = {
 
 
 export default function Home() {
-  return (<div className="container">
+  return (<div className="container-spec">
       <Navbar></Navbar>
         <div className=" text-center mb-5">
           <div className='row'>
