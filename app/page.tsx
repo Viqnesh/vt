@@ -254,28 +254,24 @@ export default function Home() {
               </Link>
             </div>
             <div className="col-6">
-            <Link href="/game">
-              <div className="creabox card ability2 wiki shadow ">
-              <h1 className='fw-bold sub-title ribbonTAG'>Jeu de Carte</h1>
-              </div>
-              </Link>
-
-            </div>
-          </div>
-          <div className="row mt-5">
-            <div className="col-6">
             <Link href="/filewatcher">
               <div className="creabox card ability2 coding shadow ">
               <h1 className='fw-bold sub-title ribbonTAG'>Surveillance de fichiers</h1>
               </div>
               </Link>
             </div>
-            <div className="col-6">
-            <Link href="/tournament">
-              <div className="creabox card ability2 esport shadow ">
-              <h1 className='fw-bold sub-title ribbonTAG'>Ligue E-sport</h1>
+
+          </div>
+          <div className="row mt-5">
+            <div className="col-6 ">
+              <div className="creaboxDisa card ability2 wiki shadow statik ">
+              <h1 className='fw-bold sub-title ribbonTAGC'>Verrouillé</h1>
               </div>
-              </Link>
+            </div>
+            <div className="col-6 ">
+              <div className="creaboxDisa card ability2 esport shadow statik">
+              <h1 className='fw-bold sub-title ribbonTAGC'>Verrouillé</h1>
+              </div>
 
             </div>
           </div>
