@@ -118,7 +118,7 @@ export default function Geocode() {
               <div className="col">
               <Image  alt="Picture of the author" src={mini3} width={1400} />
                 <div className='d-block mtb mt-3'>
-                  <p className='lang-desc fw-bold'>Ecran où l'utilisateur pourra ajouter personaliser l'equipement de son personnage</p>
+                  <p className='lang-desc fw-bold'>Ecran où l`&apos;`utilisateur pourra ajouter personaliser l`&apos;`equipement de son personnage</p>
               </div>
               </div>
               <div className="col">

@@ -79,7 +79,7 @@ export default function Geocode() {
         <div className='flex'>
         <div className="col-4 inline-flex m-3">
             <Image src={js} alt="Picture of the author" width={120} className="m-4"/>
-            <p className='lang-desc'>Développement des fonctionnalités de l'application</p>
+            <p className='lang-desc'>Développement des fonctionnalités de l`&apos;`application</p>
             </div>
             <div className="col-4 inline-flex m-3">
             <Image src={html} alt="Picture of the author" width={120} className="m-4"/>
@@ -131,7 +131,7 @@ export default function Geocode() {
           <div className="col-6">
           <Image  alt="Picture of the author" src={mini5} width={1400} />
           <div className='d-block mtb mt-3'>
-              <p className='lang-desc fw-bold'>Scanner un produit pour l'ajouter dans les aliments stockés ou sur la liste des courses</p>
+              <p className='lang-desc fw-bold'>Scanner un produit pour l`&apos;`ajouter dans les aliments stockés ou sur la liste des courses</p>
           </div>
           </div>
         </div>

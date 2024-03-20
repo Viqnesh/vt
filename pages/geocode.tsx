@@ -65,11 +65,11 @@ export default function Geocode() {
       <div className='flex'>
             <div className="col-4 inline-flex m-3">
             <Image src={wordpress} alt="Picture of the author" width={120} className="m-4 filtre-inv"/>
-            <p className='lang-desc'>CMS pour la création du site et également l'execution du script JS</p>
+            <p className='lang-desc'>CMS pour la création du site et également l`&apos;`execution du script JS</p>
             </div>
             <div className="col-4 inline-flex m-3">
             <Image src={gmaps} alt="Picture of the author" width={120} className="m-4"/>
-            <p className='lang-desc'>Utilisation de l'API Geocoding de Google</p>
+            <p className='lang-desc'>Utilisation de l`&apos;`API Geocoding de Google</p>
             </div>
         </div>
         <div className='flex'>
@@ -103,7 +103,7 @@ export default function Geocode() {
           <div className="col">
           <Image  alt="Picture of the author" src={mini2} width={1400} />
           <div className='d-block mtb mt-3'>
-              <p className='lang-desc fw-bold'>Résultat de la recherche avec les markers les plus proches de l'emplacement recherché</p>
+              <p className='lang-desc fw-bold'>Résultat de la recherche avec les markers les plus proches de l`&apos;`emplacement recherché</p>
           </div>
           </div>
           <div className="col">

@@ -97,7 +97,7 @@ export default function Geocode() {
                 <div className="col-5 inline-flex m-3">
                 <Image src={ws} alt="Picture of the author" width={180} className="m-4"/>
                 <div className='d-block mtb'>
-                <p className='lang-desc fw-bold'>Gestion des données de l'application en temps réel (statut des utilisateurs, messages...)</p>
+                <p className='lang-desc fw-bold'>Gestion des données de l`&apos;`application en temps réel (statut des utilisateurs, messages...)</p>
                 </div>
                 </div>
             </div>
@@ -111,7 +111,7 @@ export default function Geocode() {
                 <div className="col-4 inline-flex m-3">
                 <Image src={sql} alt="Picture of the author" width={180} className="m-4"/>
                 <div className='d-block mtb'>
-                <p className='lang-desc fw-bold'>Stockage des données de l'application</p>
+                <p className='lang-desc fw-bold'>Stockage des données de l`&apos;`application</p>
                 </div>
                 </div>
 
@@ -147,7 +147,7 @@ export default function Geocode() {
               <div className="col">
               <Image  alt="Picture of the author" src={mini4} width={1400} />
               <div className='d-block mtb'>
-                  <p className='lang-desc fw-bold mt-3'> Page d'Inscription </p>
+                  <p className='lang-desc fw-bold mt-3'> Page d`&apos;`Inscription </p>
               </div>
               </div>
               <div className="col">

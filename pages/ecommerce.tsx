@@ -112,13 +112,13 @@ export default function Ecommerce() {
               <div className="col">
               <Image  alt="Picture of the author" src={mini1} width={1800}/>
               <div className='d-block mtb'>
-                  <p className='lang-desc fw-bold mt-3'> Page d'un produit </p>
+                  <p className='lang-desc fw-bold mt-3'> Page d`&apos;`un produit </p>
               </div>
               </div>
               <div className="col">
               <Image  alt="Picture of the author" src={mini2} width={1400} />
               <div className='d-block mtb'>
-                  <p className='lang-desc fw-bold mt-3'> Panier d'un utilisateur avec des produits ajoutés </p>
+                  <p className='lang-desc fw-bold mt-3'> Panier d`&apos;`un utilisateur avec des produits ajoutés </p>
               </div>
               </div>
             </div>
