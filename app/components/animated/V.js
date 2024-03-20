@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import LogoV from '../../../public/Logo/vtcolor.png'
-import vtdev from '../../../public/Logo/vtdev.png'
+import vtdev from '../../../public/Logo/vtlogo.jpg'
 import charcoal from '../../../public/Logo/charcoal.png'
 import { TypeAnimation } from 'react-type-animation';
 
@@ -17,7 +17,7 @@ const AnimatedImage = () => {
                 duration: 0.8,
                 ease: [0, 0.71, 0.2, 1.01]
               }}
-          src={LogoV.src}
+          src={vtdev.src}
           className='logov' 
           width={220} 
           height={220} 
