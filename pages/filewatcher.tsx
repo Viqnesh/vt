@@ -1,12 +1,12 @@
 import Image from 'next/image'
-import Navbar from '../app/components/Navbar' ;
+import Back from '../app/components/Back' ;
 import 'bootstrap/dist/css/bootstrap.css'
 import '../app/globals.css' ;
 
 import LogoV from '../public/Logo/VT - Color.svg'
 import symfony from '../public/icons-lang/symfony.png'
 import nxtscreen from '../public/fw/netxcloud.webp'
-import fwscreen from '../public/fw/folderscreen.png'
+import fwscreen from '../public/schemaFW.png'
 
 import react from '../public/icons-lang/react.png'
 import boot from '../public/icons-lang/boot.svg'
@@ -16,6 +16,7 @@ import css from '../public/icons-lang/css.png'
 import maps from '../public/icons/maps.png'
 import nodejs from '../public/icons-lang/nodejs.png'
 import nxtcloud from '../public/icons/nxt.png'
+import njs from '../public/ab/njs.png'
 import video from '../public/icons/video.png'
 import wordpress from '../public/icons/wordpress.png'
 import website from '../public/Logo/website.png'
@@ -34,6 +35,7 @@ import { wrap } from "popmotion";
 import { useState } from 'react'
 
 import { TypeAnimation } from 'react-type-animation';
+import next from 'next';
 const images = [
   mini1,mini2,mini3
 ]
@@ -54,67 +56,51 @@ export default function Geocode() {
     setPage([page + newDirection, newDirection]);
   };
   return (<div className='container-fluid'>
-      <div className="container">
-        <Navbar></Navbar>
+  <div className="container">
+    <Back></Back>
+
+  </div>
+      <div className="container mt-5">
+      <div className="project-title mt-5 fw-bold text-light lato text-initial">
+        Surveillance de Fichiers
+      </div>
+      <div className="text-center">
+      <div className='flex'>
+      </div>
+      <div className='flex'>
+            <div className="col-4 inline-flex m-3">
+            <Image src={nxtcloud} alt="Picture of the author" width={120} className="m-4"/>
+            <p className='lang-desc'>Serveur pour héberger le fichier a surveiller</p>
+            </div>
+            <div className="col-4 inline-flex m-3">
+            <Image src={js} alt="Picture of the author" width={120} className="m-4"/>
+            <p className='lang-desc'>Développement du script pour surveiller les fichiers</p>
+            </div>
+        </div>
+        <div className='flex'>
+
+            <div className="col-4 inline-flex m-3">
+            <Image src={njs} alt="Picture of the author" width={180} className="m-4 filtre-inv"/>
+            <p className='lang-desc'>Serveur pour faire tourner le script en permanence</p>
+            </div>
+        </div>
+
+
+
+          <div className="mt-5">
+            <div className="row">
+          <div className="col">
+          <Image  alt="Picture of the author" src={fwscreen} width={1000}/>
+            <div className='d-block mtb mt-3'>
+            </div>
+          </div>
+        </div>
+          </div>
 
       </div>
-          <div className="container mt-5">
-          <div className='project-title mt-5 fw-bold text-light lato text-initial'>
-            FILES WATCHER
-          </div>
-          <p className='fw-bold text-justify text-initial text-grey w-100 mt-4'>Système qui permet de surveiller des dossiers sur un serveur Nextcloud à distance. 
-          Un fichier présent dans le repertoire Nextcloud est surveillé en temps réel par un script. 
-          A chaque modification effectué sur le fichier en question, une notification appraît sur le terminal où le script est executé pour 
-          prevenir qu`&apos;`un fichier à été modifié et un nouveau ficheir est créer avec les nouvelles données.</p>
-          <div className="text-center mt-5">
-
-              <div className="justify-content-center inline-flex ">
-                <div className="row">
-              <div className="col">
-              <Image  alt="Picture of the author" src={fwscreen} width={1000} />
-              </div>
-              <div className="col">
-              <Image  alt="Picture of the author" src={nxtscreen} width={1000} />
-              </div>
-              <div className="col">
-              </div>
-            </div>
-              </div>
-
-          </div>
-          <div className="container">
-            <div className='project-title fw-bold lato text-initial'> TECHNOS </div>
-            <hr></hr>
-            <div className="d-flex mt-5">
-                <div className="col">
-                <Image src={js} alt="Picture of the author" width={100} className='margin-auto'/>
-                  <h3 className="lato text-light fw-bold">JAVASCRIPT</h3>
-
-                </div>
-                <div className="col">
-                <Image src={nodejs}  alt="Picture of the author" width={100} className='margin-auto'/>
-                  <h3 className="lato text-light fw-bold">NODE JS</h3>
-                </div>
-                <div className="col">
-                <Image src={nxtcloud} alt="Picture of the author" width={100} className='margin-auto'/>
-                  <h3 className="lato text-light fw-bold">NEXTCLOUD</h3>
-                </div>
-              </div>
-              <div className='mt-5 text-left'>
-                <div className='project-title mt-5 fw-bold lato text-initial'> LIENS </div>
-                <hr></hr>
-                <div className="d-flex mb-5 mt-5">
-                <div className="col-5">
-                <Image src={githubwh} alt="Picture of the author" width={150} className='margin-auto'/>
-                </div>
-                <div className="col-5">
-                </div>
-              </div>
-              </div>
-
-
-            </div>          
-          </div>
-          </div>
+      <div className="d-flex mb-5 mt-5">
+          </div>    
+      </div>
+      </div>
   )
 }

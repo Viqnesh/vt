@@ -65,38 +65,43 @@ export default function Ecommerce() {
       </div>
           <div className="container mt-5">
           <div className="project-title mt-5 fw-bold text-light lato text-initial">
-            E-Commerce
+            Site E-Commerce
           </div>
-          <p className="fw-bold text-justify text-initial text-light w-100 m-5">Dendam est une application de discussion pour pouvoir communiquer avec vos amis. L`&apos;`application posséde plusieurs fonctionnalités. On peut avoir avoir des discussions avec les amis que l`&apos;`on a ajouté, on peut éditer notre profil et on peut également voir qui est également le statut des autres utilisateurs(en ligne, hors ligne, absent).</p>
           <div className="text-center mt-5">
           <div className='flex m-5'>
             <div className='col-3'>
               <Image  className="filtre-inv" alt="Picture of the author" src={logo} width={300}/>
-              <h3 className='lang-desc text-left sub-title fw-bold '>Logo</h3>
+              <h3 className='lang-desc text-left sub-title fw-bold'>Logo</h3>
             </div>
 
           </div>
             <div className='flex m-5'>
             <h3 className='lang-desc text-left sub-title fw-bold colorS'> Selection des couleurs  </h3>
-            <div className='codeCPrim mtb'>#FF4C70</div>
+            <div className='codeChauPrim mtb'>#FF4C70</div>
             <div className='codeCSec mtb'>#FFFFFF</div>
-            <div className='codeCTh mtb'>#87CEEB</div>
+            <div className='codeChauTh mtb'>#D3D3D3</div>
             </div>
             <div className='flex'>
 
                 <div className="col-4 inline-flex m-3">
                 <Image src={react} alt="Picture of the author" width={140} className="m-4"/>
-                <p className='lang-desc'>Lorem Ipsum Lorem Ipsum</p>
+                <div className='d-block mtb'>
+                <p className='lang-desc fw-bold'>Framework</p>
+                </div>
                 </div>
 
                 <div className="col-4 inline-flex m-3">
                 <Image src={njs} alt="Picture of the author" width={160} className="filtre-inv m-4"/>
-                <p className='lang-desc'>Lorem Ipsum Lorem Ipsum</p>
+                <div className='d-block mtb'>
+                <p className='lang-desc fw-bold'>Serveur Back-End</p>
+                </div>
                 </div>
 
                 <div className="col-4 inline-flex m-3">
                 <Image src={css} alt="Picture of the author" width={120} className="m-4"/>
-                <p className='lang-desc'>Lorem Ipsum Lorem Ipsum</p>
+                <div className='d-block mtb'>
+                <p className='lang-desc fw-bold'>Mise en Page</p>
+                </div>
                 </div>
             </div>
 
@@ -106,9 +111,15 @@ export default function Ecommerce() {
                 <div className="row">
               <div className="col">
               <Image  alt="Picture of the author" src={mini1} width={1800}/>
+              <div className='d-block mtb'>
+                  <p className='lang-desc fw-bold mt-3'> Page d'un produit </p>
+              </div>
               </div>
               <div className="col">
               <Image  alt="Picture of the author" src={mini2} width={1400} />
+              <div className='d-block mtb'>
+                  <p className='lang-desc fw-bold mt-3'> Panier d'un utilisateur avec des produits ajoutés </p>
+              </div>
               </div>
             </div>
               </div>

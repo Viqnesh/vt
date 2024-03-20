@@ -10,7 +10,7 @@ import boot from '../public/icons-lang/boot.svg'
 import js from '../public/icons-lang/js.webp'
 import html from '../public/icons-lang/html.png'
 import css from '../public/icons-lang/css.png'
-import phaser from '../public/icons-lang/phaser.png'
+import phaser from '../public/ab/phaser.png'
 import maps from '../public/icons/maps.png'
 import nxtcloud from '../public/icons/nxt.png'
 import video from '../public/icons/video.png'
@@ -65,15 +65,10 @@ export default function Geocode() {
       </div>
           <div className="container mt-5">
           <div className="project-title mt-5 fw-bold text-light lato text-initial">
-            MOBILE GAME
+            JEU MOBILE
           </div>
-          <p className="fw-bold text-justify text-initial text-light w-100 m-5">Dendam est une application de discussion pour pouvoir communiquer avec vos amis. L`&apos;`application posséde plusieurs fonctionnalités. On peut avoir avoir des discussions avec les amis que l`&apos;`on a ajouté, on peut éditer notre profil et on peut également voir qui est également le statut des autres utilisateurs(en ligne, hors ligne, absent).</p>
           <div className="text-center mt-5">
           <div className='flex m-5'>
-            <div className='col-3'>
-              <h3 className='lang-desc text-left sub-title fw-bold'>Logo</h3>
-            </div>
-
           </div>
             <div className='flex m-5'>
             <h3 className='lang-desc text-left sub-title fw-bold colorS'> Séléction des couleurs  </h3>
@@ -84,29 +79,24 @@ export default function Geocode() {
             <div className='flex'>
 
                 <div className="col-4 inline-flex m-3">
-                <Image src={react} alt="Picture of the author" width={140} className="m-4"/>
-                <p className='lang-desc'>Lorem Ipsum Lorem Ipsum</p>
+                <Image src={html} alt="Picture of the author" width={120} className="m-4"/>
+                <p className='lang-desc'>Création de la fenêtre</p>
                 </div>
 
                 <div className="col-4 inline-flex m-3">
-                <Image src={ws} alt="Picture of the author" width={180} className="m-4"/>
-                <p className='lang-desc'>Lorem Ipsum Lorem Ipsum</p>
-                </div>
-
-                <div className="col-4 inline-flex m-3">
-                <Image src={njs} alt="Picture of the author" width={160} className="filtre-inv m-4"/>
-                <p className='lang-desc'>Lorem Ipsum Lorem Ipsum</p>
-                </div>
-            </div>
-            <div className='flex'>
-                <div className="col-4 inline-flex m-3">
-                <Image src={sql} alt="Picture of the author" width={180} className="m-4"/>
-                <p className='lang-desc'>Lorem Ipsum Lorem Ipsum</p>
+                <Image src={css} alt="Picture of the author" width={120} className="m-4"/>
+                <p className='lang-desc'>Mise en page de la fenêtre</p>
                 </div>
 
                 <div className="col-4 inline-flex m-3">
                 <Image src={js} alt="Picture of the author" width={120} className="m-4"/>
-                <p className='lang-desc'>Lorem Ipsum Lorem Ipsum</p>
+                <p className='lang-desc'>Développement des fonctionnalités du jeu mobile</p>
+                </div>
+            </div>
+            <div className='flex'>
+                <div className="col-4 inline-flex m-3">
+                <Image src={phaser} alt="Picture of the author" width={180} className="m-4"/>
+                <p className='lang-desc'>Librairie qui permet de faciliter la création des fonctionnalités</p>
                 </div>
             </div>
 
@@ -115,18 +105,33 @@ export default function Geocode() {
                 <div className="row">
               <div className="col">
               <Image  alt="Picture of the author" src={mini1} width={1800}/>
+                <div className='d-block mtb mt-3'>
+                  <p className='lang-desc fw-bold'>Ecran titre</p>
+                </div>
               </div>
               <div className="col">
               <Image  alt="Picture of the author" src={mini2} width={1400} />
+              <div className='d-block mtb mt-3'>
+                  <p className='lang-desc fw-bold'>Boutique du jeu avec les items à acheter</p>
+              </div>
               </div>
               <div className="col">
               <Image  alt="Picture of the author" src={mini3} width={1400} />
+                <div className='d-block mtb mt-3'>
+                  <p className='lang-desc fw-bold'>Ecran où l'utilisateur pourra ajouter personaliser l'equipement de son personnage</p>
+              </div>
               </div>
               <div className="col">
               <Image  alt="Picture of the author" src={mini4} width={1400} />
+                <div className='d-block mtb mt-3'>
+                    <p className='lang-desc fw-bold'>Les différents niveaux de jeu que le joueur pourra jouer.</p>
+                </div>
               </div>
               <div className="col">
               <Image  alt="Picture of the author" src={mini5} width={1400} />
+              <div className='d-block mtb mt-3'>
+                    <p className='lang-desc fw-bold'>Onglet où le joueur pourra confectionner des armes et des acessoires avec les items achetés en boutique ou ramassés lors des quêtes.</p>
+                </div>
               </div>
             </div>
               </div>

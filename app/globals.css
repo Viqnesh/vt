@@ -225,6 +225,20 @@ body {
     background-color: #22374D;
     margin-right: 2%;
   }
+  .codeChauPrim {
+    width: 120px;
+    height: 120px;
+    background-color: #003C40;
+    color: white;
+    margin-right: 2%;
+  }
+  .codeChauTh {
+    width: 120px;
+    height: 120px;
+    background-color: lightgrey;
+    color: black;
+    margin-right: 2%;
+  }
   .codeMSec {
     width: 120px;
     height: 120px;
@@ -249,6 +263,7 @@ body {
   .lang-desc {
     margin-bottom: auto;
     margin-top:auto;
+    font-size: 20px;
     color: white;
   }
   .codeCTh {

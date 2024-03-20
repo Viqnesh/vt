@@ -34,7 +34,7 @@ import njs from '../public/ab/njs.png'
 import maps from '../public/ab/gmaps.png'
 import leaflet from '../public/ab/leaflet.png'
 import sql from '../public/ab/mysql.png'
-import api from '../public/ab/api.png'
+import api from '../public/ab/api.jpg'
 import ws from '../public/ab/ws.jpg'
 import phaser from '../public/ab/phaser.png'
 import chatapp from '../public/chatapp.png'
@@ -195,7 +195,7 @@ export default function Home() {
             </div>
             <div className="col">
               <div className="card ability  shadow ">
-                    <Image  alt="Picture of the author" width={100} className="m-2 inline-flex" src={api} />
+                    <Image  alt="Picture of the author" width={130} className="m-2 inline-flex" src={api} />
               </div>
             </div>
             <div className="col">
@@ -247,7 +247,7 @@ export default function Home() {
           </div>
           <div className="row mt-5">
             <div className="col-6">
-            <Link href="/geocode">
+            <Link href="/fridge">
               <div className="creabox card ability2 fridge shadow ">
               <h1 className='fw-bold sub-title ribbonTAG'>Application pour Frigo</h1>
               </div>
