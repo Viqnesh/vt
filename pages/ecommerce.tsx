@@ -69,21 +69,21 @@ export default function Ecommerce() {
           </div>
           <div className="text-center mt-5">
           <div className='flex m-5'>
-            <div className='col-3'>
+            <div className='col-3 col-mob'>
               <Image  className="filtre-inv" alt="Picture of the author" src={logo} width={300}/>
               <h3 className='lang-desc text-left sub-title fw-bold'>Logo</h3>
             </div>
 
           </div>
-            <div className='flex m-5'>
+            <div className='flex colorS m-5'>
             <h3 className='lang-desc text-left sub-title fw-bold colorS'> Selection des couleurs  </h3>
             <div className='codeChauPrim mtb'>#FF4C70</div>
             <div className='codeCSec mtb'>#FFFFFF</div>
             <div className='codeChauTh mtb'>#D3D3D3</div>
             </div>
-            <div className='flex'>
+            <div className='flex langList'>
 
-                <div className="col-4 inline-flex m-3">
+                <div className="col-4 inline-flex m-3 ">
                 <Image src={react} alt="Picture of the author" width={140} className="m-4"/>
                 <div className='d-block mtb'>
                 <p className='lang-desc fw-bold'>Framework</p>
@@ -107,7 +107,7 @@ export default function Ecommerce() {
 
 
 
-              <div className="justify-content-center inline-flex ">
+              <div className="justify-content-center inline-flex screens">
                 <div className="row">
               <div className="col">
               <Image  alt="Picture of the author" src={mini1} width={1800}/>

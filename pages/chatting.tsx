@@ -69,23 +69,23 @@ export default function Geocode() {
           </div>
           <div className="text-center mt-5">
           <div className='flex m-5'>
-            <div className='col-3 justify-content-center'>
+            <div className='col-3 col-mob justify-content-center'>
               <Image  alt="Picture of the author" src={favicon} width={100}/>
               <h3 className='lang-desc text-left sub-title fw-bold'>Icone</h3>
             </div>
-            <div className='col-3'>
+            <div className='col-3 col-mob'>
               <Image  alt="Picture of the author" src={logo} width={300}/>
               <h3 className='lang-desc text-left sub-title fw-bold'>Logo</h3>
             </div>
 
           </div>
-            <div className='flex m-5'>
+            <div className='flex colorS m-5'>
             <h3 className='lang-desc text-left sub-title fw-bold colorS'> Selection des couleurs  </h3>
             <div className='codeCPrim mtb'>#FF4C70</div>
             <div className='codeCSec mtb'>#FFFFFF</div>
             <div className='codeCTh mtb'>#87CEEB</div>
             </div>
-            <div className='flex'>
+            <div className='flex langList'>
 
                 <div className="col-4 inline-flex m-3">
                 <Image src={react} alt="Picture of the author" width={140} className="m-4 filtre-inv"/>
@@ -94,14 +94,14 @@ export default function Geocode() {
                 </div>
                 </div>
 
-                <div className="col-5 inline-flex m-3">
+                <div className="col-4 inline-flex m-3">
                 <Image src={ws} alt="Picture of the author" width={180} className="m-4"/>
                 <div className='d-block mtb'>
                 <p className='lang-desc fw-bold'>Gestion des données de l`&apos;`application en temps réel (statut des utilisateurs, messages...)</p>
                 </div>
                 </div>
             </div>
-            <div className='flex'>
+            <div className='flex langList'>
                 <div className="col-4 inline-flex m-3">
                 <Image src={njs} alt="Picture of the author" width={160} className="filtre-inv m-4"/>
                 <div className='d-block mtb'>
@@ -124,7 +124,7 @@ export default function Geocode() {
             </div>
 
 
-              <div className="justify-content-center inline-flex ">
+              <div className="justify-content-center inline-flex screens">
                 <div className="row">
               <div className="col">
               <Image  alt="Picture of the author" src={mini1} width={1800}/>

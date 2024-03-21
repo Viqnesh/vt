@@ -67,7 +67,7 @@ export default function Geocode() {
       <div className="text-center">
       <div className='flex'>
       </div>
-      <div className='flex'>
+      <div className='flex langList'>
             <div className="col-4 inline-flex m-3">
             <Image src={nxtcloud} alt="Picture of the author" width={120} className="m-4"/>
             <p className='lang-desc'>Serveur pour héberger le fichier a surveiller</p>
@@ -77,7 +77,7 @@ export default function Geocode() {
             <p className='lang-desc'>Développement du script pour surveiller les fichiers</p>
             </div>
         </div>
-        <div className='flex'>
+        <div className='flex langList'>
 
             <div className="col-4 inline-flex m-3">
             <Image src={njs} alt="Picture of the author" width={180} className="m-4 filtre-inv"/>
@@ -88,7 +88,7 @@ export default function Geocode() {
 
 
           <div className="mt-5">
-            <div className="row">
+            <div className="row screens">
           <div className="col">
           <Image  alt="Picture of the author" src={fwscreen} width={1000}/>
             <div className='d-block mtb mt-3'>

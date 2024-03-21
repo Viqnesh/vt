@@ -62,17 +62,17 @@ export default function Geocode() {
       <div className="text-center mt-5">
       <div className='flex m-5'>
       </div>
-      <div className='flex'>
+      <div className='flex langList'>
             <div className="col-4 inline-flex m-3">
             <Image src={wordpress} alt="Picture of the author" width={120} className="m-4 filtre-inv"/>
             <p className='lang-desc'>CMS pour la création du site et également l`&apos;`execution du script JS</p>
             </div>
             <div className="col-4 inline-flex m-3">
-            <Image src={gmaps} alt="Picture of the author" width={120} className="m-4"/>
+            <Image src={gmaps} alt="Picture of the author" width={120} className="m-4 filtre-inv"/>
             <p className='lang-desc'>Utilisation de l`&apos;`API Geocoding de Google</p>
             </div>
         </div>
-        <div className='flex'>
+        <div className='flex langList'>
         <div className="col-4 inline-flex m-3">
             <Image src={js} alt="Picture of the author" width={120} className="m-4"/>
             <p className='lang-desc'>Développement des fonctionnalités de geocoding</p>
@@ -92,7 +92,7 @@ export default function Geocode() {
 
 
 
-          <div className="justify-content-center inline-flex ">
+          <div className="justify-content-center inline-flex screens">
             <div className="row">
           <div className="col">
           <Image  alt="Picture of the author" src={mini1} width={1800}/>

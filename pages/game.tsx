@@ -70,13 +70,13 @@ export default function Geocode() {
           <div className="text-center mt-5">
           <div className='flex m-5'>
           </div>
-            <div className='flex m-5'>
+            <div className='flex m-5 colorS'>
             <h3 className='lang-desc text-left sub-title fw-bold colorS'> Séléction des couleurs  </h3>
             <div className='codeMPrim mtb'>#1D3249</div>
             <div className='codeMSec mtb'>#FFF4D5</div>
             <div className='codeMTh mtb'>#FFFFFF</div>
             </div>
-            <div className='flex'>
+            <div className='flex langList'>
 
                 <div className="col-4 inline-flex m-3">
                 <Image src={html} alt="Picture of the author" width={120} className="m-4"/>
@@ -93,7 +93,7 @@ export default function Geocode() {
                 <p className='lang-desc'>Développement des fonctionnalités du jeu mobile</p>
                 </div>
             </div>
-            <div className='flex'>
+            <div className='langList flex'>
                 <div className="col-4 inline-flex m-3">
                 <Image src={phaser} alt="Picture of the author" width={180} className="m-4"/>
                 <p className='lang-desc'>Librairie qui permet de faciliter la création des fonctionnalités</p>
@@ -101,7 +101,7 @@ export default function Geocode() {
             </div>
 
 
-              <div className="justify-content-center inline-flex ">
+              <div className="justify-content-center inline-flex screens">
                 <div className="row">
               <div className="col">
               <Image  alt="Picture of the author" src={mini1} width={1800}/>

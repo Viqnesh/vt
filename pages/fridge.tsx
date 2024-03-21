@@ -66,7 +66,7 @@ export default function Geocode() {
       <div className="text-center mt-5">
       <div className='flex m-5'>
       </div>
-      <div className='flex'>
+      <div className='flex langList'>
             <div className="col-4 inline-flex m-3">
             <Image src={elek} alt="Picture of the author" width={120} className="m-4 "/>
             <p className='lang-desc'>Framework</p>
@@ -76,7 +76,7 @@ export default function Geocode() {
             <p className='lang-desc'>Serveur Back-End</p>
             </div>
         </div>
-        <div className='flex'>
+        <div className='flex langList'>
         <div className="col-4 inline-flex m-3">
             <Image src={js} alt="Picture of the author" width={120} className="m-4"/>
             <p className='lang-desc'>Développement des fonctionnalités de l`&apos;`application</p>
@@ -96,15 +96,15 @@ export default function Geocode() {
 
 
 
-          <div className="justify-content-center ">
+          <div className="justify-content-center screens">
             <div className="row">
-          <div className="col-6">
+          <div className="col">
           <Image  alt="Picture of the author" src={mini1} width={1800}/>
             <div className='d-block mtb mt-3'>
               <p className='lang-desc fw-bold'>Infos générales sur le produit</p>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col">
           <Image  alt="Picture of the author" src={mini4} width={1400} />
           <div className='d-block mtb mt-3'>
               <p className='lang-desc fw-bold'>Permet de voir les aliments stockés dans le frigo, avec la quantité et la date de péremption</p>
@@ -113,13 +113,13 @@ export default function Geocode() {
 
         </div>
         <div className="row mt-5">
-        <div className="col-6">
+        <div className="col">
           <Image  alt="Picture of the author" src={mini2} width={1400} />
             <div className='d-block mtb mt-3'>
               <p className='lang-desc fw-bold'>Formulaire pour ajouter un produit manuellement</p>
           </div>
           </div>
-          <div className="col-6">
+          <div className="col">
           <Image  alt="Picture of the author" src={mini3} width={1800}/>
             <div className='d-block mtb mt-3'>
               <p className='lang-desc fw-bold'>Liste des courses de la semaine</p>
@@ -128,7 +128,7 @@ export default function Geocode() {
         </div>
         <div className="row mt-5">
 
-          <div className="col-6">
+          <div className="col">
           <Image  alt="Picture of the author" src={mini5} width={1400} />
           <div className='d-block mtb mt-3'>
               <p className='lang-desc fw-bold'>Scanner un produit pour l`&apos;`ajouter dans les aliments stockés ou sur la liste des courses</p>
@@ -138,8 +138,7 @@ export default function Geocode() {
           </div>
 
       </div>
-      <div className="d-flex mb-5 mt-5">
-          </div>    
+
       </div>
       </div>
   )
