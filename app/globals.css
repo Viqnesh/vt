@@ -572,45 +572,45 @@ li {
     font-size: 35px!important;
   }
   .col-mob {
-    width: 100%;
+    width: 100%!important;
   }
   .project-title {
-    width: 570px;
-    text-align: center;
-    font-size: 70px;
+    width: 570px!important;
+    text-align: center!important;
+    font-size: 70px!important;
   }
   .langList {
-    display: grid;
-    width: 520px;
+    display: grid!important;
+    width: 520px!important;
   }
   .langList > div {
-    width: 100%;
+    width: 100%!important;
   }
   .langList img {
-    width: 150px;
+    width: 150px!important;
   }
   .langList .mtb {
-    width: 360px;
+    width: 360px!important;
   }
   .mtb .lang-desc {
-    font-size: 25px;
+    font-size: 25px!important;
   }
   .screens {
-    display: block;
-    width: 580px;
+    display: block!important;
+    width: 580px!important;
   }
   .screens .row {
-    display: block;
+    display: block!important;
   }
   .screens img {
-    width: 100%;
+    width: 100%!important;
   }
   .screens .col {
-    width: 580px;
+    width: 580px!important;
   }
   .screens .lang-desc {
-    margin-bottom: 15%;
-    font-size: 35px;
+    margin-bottom: 15%!important;
+    font-size: 35px!important;
 
   }
  }
