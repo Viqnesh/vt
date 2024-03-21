@@ -70,71 +70,71 @@ export default function Home() {
           <div className='row'>
           <V></V>
           </div>
-          <h1 className='title'> Compétences </h1>
+          <h1 className='title fw-bold'> Compétences </h1>
 
           <div className="row mt-5">
-            <div className="col">
+            <div className="col-2">
               <div className="card ability shadow- ">
-                  <Image  alt="Picture of the author" width={100} className="m-2 inline-flex " src={html} />
+                  <Image  alt="Picture of the author" width={100} className="inline-flex " src={html} />
+
               </div>
             </div>
-            <div className="col">
+            <div className="col-2">
               <div className="card ability  shadow ">
-                    <Image  alt="Picture of the author" width={100} className="m-2 inline-flex" src={css} />
+                    <Image  alt="Picture of the author" width={100} className="inline-flex" src={css} />
+                    
               </div>
             </div>
-            <div className="col">
+            <div className="col-2">
               <div className="card ability  shadow ">
                     <Image  alt="Picture of the author" width={100} className="m-2 inline-flex " src={js} />
               </div>
             </div>
-            <div className="col">
+            <div className="col-2">
               <div className="card ability  shadow ">
                     <Image  alt="Picture of the author" width={120} className="m-2 inline-flex" src={php} />
               </div>
             </div>
-          </div>
-
-          <div className="row mt-5">
-            <div className="col">
+            <div className="col-2">
               <div className="card ability  shadow ">
                   <Image  alt="Picture of the author" width={100} className="m-2 inline-flex" src={ts} />
               </div>
             </div>
-            <div className="col">
+            <div className="col-2">
               <div className="card ability  shadow ">
                     <Image  alt="Picture of the author" width={150} className="m-2 inline-flex" src={twig} />
-              </div>
-            </div>
-            <div className="col">
-              <div className="card ability  shadow ">
-                    <Image  alt="Picture of the author" width={150} className="m-2 inline-flex" src={nxt} />
-              </div>
-            </div>
-            <div className="col">
-              <div className="card ability  shadow ">
-                    <Image  alt="Picture of the author" width={100} className="m-2 inline-flex" src={boot} />
               </div>
             </div>
           </div>
 
           <div className="row mt-5">
-            <div className="col">
+
+            <div className="col-2">
+              <div className="card ability  shadow ">
+                    <Image  alt="Picture of the author" width={150} className="m-2 inline-flex" src={nxt} />
+              </div>
+            </div>
+            <div className="col-2">
+              <div className="card ability  shadow ">
+                    <Image  alt="Picture of the author" width={100} className="m-2 inline-flex" src={boot} />
+              </div>
+            </div>
+            <div className="col-2">
               <div className="card ability  shadow ">
                   <Image  alt="Picture of the author" width={70} className="m-2 inline-flex " src={java} />
               </div>
             </div>
-            <div className="col">
+            <div className="col-2">
               <div className="card ability  shadow ">
                     <Image  alt="Picture of the author" width={100} className="m-2 inline-flex" src={c} />
               </div>
             </div>
-            <div className="col">
+            <div className="col-2">
               <div className="card ability  shadow ">
                     <Image  alt="Picture of the author" width={100} className="m-2 inline-flex" src={react} />
               </div>
             </div>
-            <div className="col">
+            <div className="col-2">
               <div className="card ability  shadow ">
                     <Image  alt="Picture of the author" width={150} className="m-2 inline-flex " src={nextjs} />
               </div>
@@ -142,75 +142,73 @@ export default function Home() {
           </div>
 
           <div className="row mt-5">
-            <div className="col">
+            <div className="col-2">
               <div className="card ability  shadow ">
                   <Image  alt="Picture of the author" width={100} className="m-2 inline-flex " src={symfony} />
               </div>
             </div>
-            <div className="col">
+            <div className="col-2">
               <div className="card ability  shadow  ">
                     <Image  alt="Picture of the author" width={100} className="m-2 inline-flex " src={rn} />
               </div>
             </div>
-            <div className="col">
+            <div className="col-2">
               <div className="card ability  shadow  ">
                     <Image  alt="Picture of the author" width={100} className="m-2 inline-flex" src={android} />
               </div>
             </div>
-            <div className="col">
+            <div className="col-2">
               <div className="card ability  shadow ">
                     <Image  alt="Picture of the author" width={100} className="m-2 inline-flex " src={wp} />
               </div>
             </div>
-          </div>
-
-          <div className="row mt-5">
-            <div className="col">
+            <div className="col-2">
               <div className="card ability  shadow ">
                   <Image  alt="Picture of the author" width={100} className="m-2 inline-flex" src={elek} />
               </div>
             </div>
-            <div className="col">
+            <div className="col-2">
               <div className="card ability  shadow ">
                     <Image  alt="Picture of the author" width={150} className="m-2 inline-flex" src={njs} />
-              </div>
-            </div>
-            <div className="col">
-              <div className="card ability  shadow ">
-                    <Image  alt="Picture of the author" width={100} className="m-2 inline-flex" src={maps} />
-              </div>
-            </div>
-            <div className="col">
-              <div className="card ability  shadow ">
-                    <Image  alt="Picture of the author" width={180} className="m-2 inline-flex" src={leaflet} />
               </div>
             </div>
           </div>
 
           <div className="row mt-5">
-            <div className="col">
+
+            <div className="col-2">
+              <div className="card ability  shadow ">
+                    <Image  alt="Picture of the author" width={200} className="m-2 inline-flex" src={maps} />
+              </div>
+            </div>
+            <div className="col-2">
+              <div className="card ability  shadow ">
+                    <Image  alt="Picture of the author" width={180} className="m-2 inline-flex" src={leaflet} />
+              </div>
+            </div>
+            <div className="col-2">
               <div className="card ability  shadow ">
                   <Image  alt="Picture of the author" width={150} className="m-2 inline-flex" src={sql} />
               </div>
             </div>
-            <div className="col">
+            <div className="col-2">
               <div className="card ability  shadow ">
                     <Image  alt="Picture of the author" width={130} className="m-2 inline-flex" src={api} />
               </div>
             </div>
-            <div className="col">
+            <div className="col-2">
               <div className="card ability  shadow ">
                     <Image  alt="Picture of the author" width={150} className="m-2 inline-flex" src={ws} />
               </div>
             </div>
-            <div className="col">
+            <div className="col-2">
               <div className="card ability  shadow ">
                     <Image  alt="Picture of the author" width={180} className="m-2 inline-flex" src={phaser} />
               </div>
             </div>
           </div>
 
-          <h1 className='title mt-5'> Créations </h1>
+          <h1 className='title mt-5 fw-bold'> Créations </h1>
           <div className="row mt-5">
             <div className="col-6">
             <Link href="/ecommerce">

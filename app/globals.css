@@ -74,10 +74,10 @@ body {
   justify-content: center;
 }
 .ability {
-  width: 18rem;
+  width: 12rem;
   align-items: center;
-  padding: 13%;
-  height: 13rem!important;
+  padding: 8%;
+  height: 10rem!important;
   border-radius: 28px!important;
 
 }
@@ -270,6 +270,12 @@ body {
     margin-top:auto;
     font-size: 20px;
     color: white;
+  }
+  .lang-desc-bl {
+    margin-bottom: auto;
+    margin-top:auto;
+    font-size: 20px;
+    color: black;
   }
   .codeCTh {
     width: 120px;
