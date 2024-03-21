@@ -70,154 +70,154 @@ export default function Home() {
           <div className='row'>
           <V></V>
           </div>
-          <h1 className='title fw-bold'> Compétences </h1>
+          <h1 className='title-mob title fw-bold'> Compétences </h1>
 
           <div className="row mt-5">
-            <div className="col-2">
-              <div className="card ability shadow- ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob shadow ">
                   <Image  alt="Picture of the author" width={100} className="inline-flex " src={html} />
 
               </div>
             </div>
-            <div className="col-2">
-              <div className="card ability  shadow ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow ">
                     <Image  alt="Picture of the author" width={100} className="inline-flex" src={css} />
                     
               </div>
             </div>
-            <div className="col-2">
-              <div className="card ability  shadow ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow ">
                     <Image  alt="Picture of the author" width={100} className="m-2 inline-flex " src={js} />
               </div>
             </div>
-            <div className="col-2">
-              <div className="card ability  shadow ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow ">
                     <Image  alt="Picture of the author" width={120} className="m-2 inline-flex" src={php} />
               </div>
             </div>
-            <div className="col-2">
-              <div className="card ability  shadow ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow ">
                   <Image  alt="Picture of the author" width={100} className="m-2 inline-flex" src={ts} />
               </div>
             </div>
-            <div className="col-2">
-              <div className="card ability  shadow ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow ">
                     <Image  alt="Picture of the author" width={150} className="m-2 inline-flex" src={twig} />
               </div>
             </div>
           </div>
 
-          <div className="row mt-5">
+          <div className="row cancel-mt mt-5">
 
-            <div className="col-2">
-              <div className="card ability  shadow ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow ">
                     <Image  alt="Picture of the author" width={150} className="m-2 inline-flex" src={nxt} />
               </div>
             </div>
-            <div className="col-2">
-              <div className="card ability  shadow ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow ">
                     <Image  alt="Picture of the author" width={100} className="m-2 inline-flex" src={boot} />
               </div>
             </div>
-            <div className="col-2">
-              <div className="card ability  shadow ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow ">
                   <Image  alt="Picture of the author" width={70} className="m-2 inline-flex " src={java} />
               </div>
             </div>
-            <div className="col-2">
-              <div className="card ability  shadow ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow ">
                     <Image  alt="Picture of the author" width={100} className="m-2 inline-flex" src={c} />
               </div>
             </div>
-            <div className="col-2">
-              <div className="card ability  shadow ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow ">
                     <Image  alt="Picture of the author" width={100} className="m-2 inline-flex" src={react} />
               </div>
             </div>
-            <div className="col-2">
-              <div className="card ability  shadow ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow ">
                     <Image  alt="Picture of the author" width={150} className="m-2 inline-flex " src={nextjs} />
               </div>
             </div>
           </div>
 
-          <div className="row mt-5">
-            <div className="col-2">
-              <div className="card ability  shadow ">
+          <div className="row cancel-mt mt-5">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow ">
                   <Image  alt="Picture of the author" width={100} className="m-2 inline-flex " src={symfony} />
               </div>
             </div>
-            <div className="col-2">
-              <div className="card ability  shadow  ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow  ">
                     <Image  alt="Picture of the author" width={100} className="m-2 inline-flex " src={rn} />
               </div>
             </div>
-            <div className="col-2">
-              <div className="card ability  shadow  ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow  ">
                     <Image  alt="Picture of the author" width={100} className="m-2 inline-flex" src={android} />
               </div>
             </div>
-            <div className="col-2">
-              <div className="card ability  shadow ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow ">
                     <Image  alt="Picture of the author" width={100} className="m-2 inline-flex " src={wp} />
               </div>
             </div>
-            <div className="col-2">
-              <div className="card ability  shadow ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow ">
                   <Image  alt="Picture of the author" width={100} className="m-2 inline-flex" src={elek} />
               </div>
             </div>
-            <div className="col-2">
-              <div className="card ability  shadow ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow ">
                     <Image  alt="Picture of the author" width={150} className="m-2 inline-flex" src={njs} />
               </div>
             </div>
           </div>
 
-          <div className="row mt-5">
+          <div className="row cancel-mt mt-5">
 
-            <div className="col-2">
-              <div className="card ability  shadow ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow ">
                     <Image  alt="Picture of the author" width={200} className="m-2 inline-flex" src={maps} />
               </div>
             </div>
-            <div className="col-2">
-              <div className="card ability  shadow ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow ">
                     <Image  alt="Picture of the author" width={180} className="m-2 inline-flex" src={leaflet} />
               </div>
             </div>
-            <div className="col-2">
-              <div className="card ability  shadow ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow ">
                   <Image  alt="Picture of the author" width={150} className="m-2 inline-flex" src={sql} />
               </div>
             </div>
-            <div className="col-2">
-              <div className="card ability  shadow ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow ">
                     <Image  alt="Picture of the author" width={130} className="m-2 inline-flex" src={api} />
               </div>
             </div>
-            <div className="col-2">
-              <div className="card ability  shadow ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow ">
                     <Image  alt="Picture of the author" width={150} className="m-2 inline-flex" src={ws} />
               </div>
             </div>
-            <div className="col-2">
-              <div className="card ability  shadow ">
+            <div className="col-2 comp-mob">
+              <div className="card ability ability-mob  shadow ">
                     <Image  alt="Picture of the author" width={180} className="m-2 inline-flex" src={phaser} />
               </div>
             </div>
           </div>
 
-          <h1 className='title mt-5 fw-bold'> Créations </h1>
-          <div className="row mt-5">
-            <div className="col-6">
+          <h1 className='title-mob title mt-5 fw-bold'> Créations </h1>
+          <div className="row h25 mt-5">
+            <div className="col-6 creat-mob">
             <Link href="/ecommerce">
               <div className="creabox card ability2 ecommerce shadow-lg ">
                   <h1 className='fw-bold sub-title ribbonTAG'>E-Commerce</h1>
               </div>
               </Link>
             </div>
-            <div className="col-6">
+            <div className="col-6 creat-mob">
             <Link href="/chatting">
               <div className="creabox card ability2 chatting shadow ">
               <h1 className='fw-bold sub-title ribbonTAG'>Messagerie Instantané</h1>
@@ -225,15 +225,15 @@ export default function Home() {
               </Link>
             </div>
           </div>
-          <div className="row mt-5">
-            <div className="col-6">
+          <div className="row cancel-mt  mt-5">
+            <div className="col-6 creat-mob">
             <Link href="/game">
               <div className="creabox card ability2 tirudan shadow ">
               <h1 className='fw-bold sub-title ribbonTAG'>Jeu Mobile</h1>
               </div>
             </Link>
             </div>
-            <div className="col-6">
+            <div className="col-6 creat-mob">
             <Link href="/geocode">
               <div className="creabox card ability2 geoc shadow ">
               <h1 className='fw-bold sub-title ribbonTAG'>Service de Geocoding</h1>
@@ -243,15 +243,15 @@ export default function Home() {
             </div>
 
           </div>
-          <div className="row mt-5">
-            <div className="col-6">
+          <div className="row mt-5 cancel-mt">
+            <div className="col-6 creat-mob">
             <Link href="/fridge">
               <div className="creabox card ability2 fridge shadow ">
               <h1 className='fw-bold sub-title ribbonTAG'>Application pour Frigo</h1>
               </div>
               </Link>
             </div>
-            <div className="col-6">
+            <div className="col-6 creat-mob">
             <Link href="/filewatcher">
               <div className="creabox card ability2 coding shadow ">
               <h1 className='fw-bold sub-title ribbonTAG'>Surveillance de fichiers</h1>
@@ -260,13 +260,13 @@ export default function Home() {
             </div>
 
           </div>
-          <div className="row mt-5">
-            <div className="col-6 ">
+          <div className="row mt-5 cancel-mt">
+            <div className="col-6 creat-mob">
               <div className="creaboxDisa card ability2 wiki shadow statik ">
               <h1 className='fw-bold sub-title ribbonTAGC'>Verrouillé</h1>
               </div>
             </div>
-            <div className="col-6 ">
+            <div className="col-6 creat-mob">
               <div className="creaboxDisa card ability2 esport shadow statik">
               <h1 className='fw-bold sub-title ribbonTAGC'>Verrouillé</h1>
               </div>

@@ -18,14 +18,14 @@ const AnimatedImage = () => {
                 ease: [0, 0.71, 0.2, 1.01]
               }}
           src={vtdev.src}
-          className='logov' 
+          className='logov mobileLogo' 
           width={220} 
           height={220} 
           alt="Picture of the author" />
         <div className='infoss'>
-        <h1 className="title fw-bold lato mt-5">Vignesh Tillaisababady</h1>
-        <h1 className="sub-title fw-bold lato">Développeur Full-Stack</h1>
-        <h1 className="sub-title fw-bold lato">25 ans</h1>
+        <h1 className="title homeTitle-mob fw-bold lato mt-5">Vignesh Tillaisababady</h1>
+        <h1 className="sub-title subTitle-mob fw-bold lato">Développeur Full-Stack</h1>
+        <h1 className="sub-title yearsTitle-mob fw-bold lato">25 ans</h1>
         </div>
 
     </div>

@@ -479,3 +479,90 @@ li {
     background-position-x: right;
     height: 100%;
   }
+
+
+/*/ X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+  .mobile-col {
+    width: 45%;
+    margin-left: 3%;
+  }
+  .socialm {
+    width: 40px;
+  }
+  .socialme {
+    width: 40px;
+  }
+  .mobileLogo {
+    display: block;
+    margin-left: auto;
+    border-radius: 70px;
+    margin-right: auto
+  }
+
+  .h25 {
+    display: block;
+  }
+  .homeTitle-mob {
+    font-size: 35px;
+    text-align: center;
+  }
+  .subTitle-mob {
+    font-size: 25px;
+    margin-top: 4%;
+    text-align: center;
+  }
+  .yearsTitle-mob {
+    font-size: 25px;
+    margin-top: 4%;
+    text-align: center;
+  }
+  .title-mob {
+    font-size: 35px;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 8%;
+  }
+  .ability-mob {
+    width: 10rem;
+    align-items: center;
+    padding: 8%;
+    height: 10rem!important;
+    border-radius: 28px!important;
+
+    margin-bottom:10%
+  }
+  .comp-mob {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .cancel-mt {
+    margin-top: inherit!important;
+  }
+
+  .ability2 {
+    width: 21rem;
+    display: block;
+    align-items: center;
+    padding: 13%;
+    height: 20rem;
+  }
+
+  .creat-mob {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: auto;
+    display: flex;
+    padding: 8%;
+    flex-direction: row;
+  }
+  .sub-title{
+    font-size: 25px;
+  }
+ }
+  
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+
+}

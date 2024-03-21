@@ -30,17 +30,17 @@ function Navbar() {
   return (<>
     <div className='row'>
       <div className='d-flex'>
-        <div className='col-6 text-left mt-4'>
+        <div className='col-6 mobile-col text-left mt-4'>
           <div>
           <Link href="https://github.com/Viqnesh"><Image  alt="Picture of the author" width={50} className="m-2 inline-flex socialm" src={github} /></Link>
           <Link href="https://www.linkedin.com/in/vignesh-tillaisababady-4264922bb/"><Image  alt="Picture of the author" width={50} className="m-2 inline-flex socialm" src={linked} /></Link>
           <Link href="https://www.instagram.com/vigneshtdev/"><Image  alt="Picture of the author" width={50} className="m-2 inline-flex socialm" src={instagram} /></Link>
           </div>
         </div>
-        <div className='col-6 text-end mt-4'>
+        <div className='col-6 mobile-col text-end mt-4'>
           <div className='inline-flex'>
           <Link href="/cv.pdf"><Image  alt="Picture of the author" width={50} className="m-2 inline-flex filtre-inv socialme" src={cv} /></Link>
-          <a className="cursorp socialm" onClick={() => alert("06 46 43 73 55") }><Image  alt="Picture of the author" width={50} className="m-2 inline-flex filtre-inv socialm" src={tel} /></a>
+          <a className="cursorp" onClick={() => alert("06 46 43 73 55") }><Image  alt="Picture of the author" width={50} className="m-2 inline-flex filtre-inv socialm" src={tel} /></a>
           <Link href="mailto:vignesht.pro@gmail.com"><Image  alt="Picture of the author" width={50} className="m-2 inline-flex filtre-inv socialme" src={mail} /></Link>
 
           </div>
