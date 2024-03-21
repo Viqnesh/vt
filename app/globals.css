@@ -484,81 +484,81 @@ li {
 /*/ X-Small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
   .mobile-col {
-    width: 45%;
-    margin-left: 3%;
+    width: 45%!important;
+    margin-left: 3%!important;
   }
   .socialm {
-    width: 40px;
+    width: 40px!important;
   }
   .socialme {
-    width: 40px;
+    width: 40px!important;
   }
   .mobileLogo {
-    display: block;
-    margin-left: auto;
-    border-radius: 70px;
-    margin-right: auto
+    display: block!important;
+    margin-left: auto!important;
+    border-radius: 70px!important;
+    margin-right: auto!important;
   }
 
   .h25 {
-    display: block;
+    display: block!important;
   }
   .homeTitle-mob {
-    font-size: 35px;
-    text-align: center;
+    font-size: 35px!important;
+    text-align: center!important;
   }
   .subTitle-mob {
-    font-size: 25px;
-    margin-top: 4%;
-    text-align: center;
+    font-size: 25px!important;
+    margin-top: 4%!important;
+    text-align: center!important;
   }
   .yearsTitle-mob {
-    font-size: 25px;
-    margin-top: 4%;
-    text-align: center;
+    font-size: 25px!important;
+    margin-top: 4%!important;
+    text-align: center!important;
   }
   .title-mob {
-    font-size: 35px;
-    text-align: left;
-    margin-left: 5%;
-    margin-top: 8%;
+    font-size: 35px!important;
+    text-align: left!important;
+    margin-left: 5%!important;
+    margin-top: 8%!important;
   }
   .ability-mob {
-    width: 10rem;
-    align-items: center;
-    padding: 8%;
+    width: 10rem!important;
+    align-items: center!important;
+    padding: 8%!important;
     height: 10rem!important;
     border-radius: 28px!important;
 
-    margin-bottom:10%
+    margin-bottom:10%!important;
   }
   .comp-mob {
-    width: 45%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 45%!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
   }
   .cancel-mt {
     margin-top: inherit!important;
   }
 
   .ability2 {
-    width: 21rem;
-    display: block;
-    align-items: center;
-    padding: 13%;
-    height: 20rem;
+    width: 21rem!important;
+    display: block!important;
+    align-items: center!important;
+    padding: 13%!important;
+    height: 20rem!important;
   }
 
   .creat-mob {
-    width: 100%;
-    margin-left: 2%;
-    margin-right: auto;
-    display: flex;
-    padding: 8%;
-    flex-direction: row;
+    width: 100%!important;
+    margin-left: 2%!important;
+    margin-right: auto!important;
+    display: flex!important;
+    padding: 8%!important;
+    flex-direction: row!important;
   }
   .sub-title{
-    font-size: 25px;
+    font-size: 25px!important;
   }
  }
   
