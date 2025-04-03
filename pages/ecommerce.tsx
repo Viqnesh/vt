@@ -67,7 +67,7 @@ export default function Ecommerce() {
           <div className="project-title mt-5 fw-bold text-light lato text-initial">
             E-Commerce
           </div>
-          <p className="fw-bold text-justify text-initial text-light w-100 m-5">Dendam est une application de discussion pour pouvoir communiquer avec vos amis. L'application posséde plusieurs fonctionnalités. On peut avoir avoir des discussions avec les amis que l'on a ajouté, on peut éditer notre profil et on peut également voir qui est également le statut des autres utilisateurs(en ligne, hors ligne, absent).</p>
+          <p className="fw-bold text-justify text-initial text-light w-100 m-5">Dendam est une application de discussion pour pouvoir communiquer avec vos amis. L`&apos;`application posséde plusieurs fonctionnalités. On peut avoir avoir des discussions avec les amis que l`&apos;`on a ajouté, on peut éditer notre profil et on peut également voir qui est également le statut des autres utilisateurs(en ligne, hors ligne, absent).</p>
           <div className="text-center mt-5">
           <div className='flex m-5'>
             <div className='col-3'>

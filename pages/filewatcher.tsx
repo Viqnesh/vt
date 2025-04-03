@@ -65,7 +65,7 @@ export default function Geocode() {
           <p className='fw-bold text-justify text-initial text-grey w-100 mt-4'>Système qui permet de surveiller des dossiers sur un serveur Nextcloud à distance. 
           Un fichier présent dans le repertoire Nextcloud est surveillé en temps réel par un script. 
           A chaque modification effectué sur le fichier en question, une notification appraît sur le terminal où le script est executé pour 
-          prevenir qu'un fichier à été modifié et un nouveau ficheir est créer avec les nouvelles données.</p>
+          prevenir qu`&apos;`un fichier à été modifié et un nouveau ficheir est créer avec les nouvelles données.</p>
           <div className="text-center mt-5">
 
               <div className="justify-content-center inline-flex ">
