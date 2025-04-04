@@ -5,7 +5,7 @@ import '../app/globals.css' ;
 
 import LogoV from '../public/Logo/VT - Color.svg'
 import symfony from '../public/icons-lang/symfony.png'
-import react from '../public/icons-lang/react.png'
+import react from '../public/ab/rn.png'
 import boot from '../public/icons-lang/boot.svg'
 import js from '../public/icons-lang/js.webp'
 import html from '../public/icons-lang/html.png'
@@ -67,71 +67,94 @@ export default function Geocode() {
           <div className="project-title mt-5 fw-bold text-light lato text-initial">
             MESSAGERIE INSTANTANE
           </div>
-          <p className="fw-bold text-justify text-initial text-light w-100 m-5">Dendam est une application de discussion pour pouvoir communiquer avec vos amis. L`&apos;`application posséde plusieurs fonctionnalités. On peut avoir avoir des discussions avec les amis que l`&apos;`on a ajouté, on peut éditer notre profil et on peut également voir qui est également le statut des autres utilisateurs(en ligne, hors ligne, absent).</p>
           <div className="text-center mt-5">
           <div className='flex m-5'>
-            <div className='col-3 justify-content-center'>
+            <div className='col-3 col-mob justify-content-center'>
               <Image  alt="Picture of the author" src={favicon} width={100}/>
               <h3 className='lang-desc text-left sub-title fw-bold'>Icone</h3>
             </div>
-            <div className='col-3'>
+            <div className='col-3 col-mob'>
               <Image  alt="Picture of the author" src={logo} width={300}/>
               <h3 className='lang-desc text-left sub-title fw-bold'>Logo</h3>
             </div>
 
           </div>
-            <div className='flex m-5'>
-            <h3 className='lang-desc text-left sub-title fw-bold colorS'> Séléction des couleurs  </h3>
+            <div className='flex colorS m-5'>
+            <h3 className='lang-desc text-left sub-title fw-bold colorS'> Selection des couleurs  </h3>
             <div className='codeCPrim mtb'>#FF4C70</div>
             <div className='codeCSec mtb'>#FFFFFF</div>
             <div className='codeCTh mtb'>#87CEEB</div>
             </div>
-            <div className='flex'>
+            <div className='flex langList'>
 
                 <div className="col-4 inline-flex m-3">
-                <Image src={react} alt="Picture of the author" width={140} className="m-4"/>
-                <p className='lang-desc'>Lorem Ipsum Lorem Ipsum</p>
+                <Image src={react} alt="Picture of the author" width={140} className="m-4 filtre-inv"/>
+                <div className='d-block mtb'>
+                <p className='lang-desc fw-bold'>Framework</p>
+                </div>
                 </div>
 
                 <div className="col-4 inline-flex m-3">
                 <Image src={ws} alt="Picture of the author" width={180} className="m-4"/>
-                <p className='lang-desc'>Lorem Ipsum Lorem Ipsum</p>
+                <div className='d-block mtb'>
+                <p className='lang-desc fw-bold'>Gestion des données de l`&apos;`application en temps réel (statut des utilisateurs, messages...)</p>
                 </div>
-
-                <div className="col-4 inline-flex m-3">
-                <Image src={njs} alt="Picture of the author" width={160} className="filtre-inv m-4"/>
-                <p className='lang-desc'>Lorem Ipsum Lorem Ipsum</p>
                 </div>
             </div>
-            <div className='flex'>
+            <div className='flex langList'>
+                <div className="col-4 inline-flex m-3">
+                <Image src={njs} alt="Picture of the author" width={160} className="filtre-inv m-4"/>
+                <div className='d-block mtb'>
+                <p className='lang-desc fw-bold'>Serveur Back-End</p>
+                </div>
+                </div>
                 <div className="col-4 inline-flex m-3">
                 <Image src={sql} alt="Picture of the author" width={180} className="m-4"/>
-                <p className='lang-desc'>Lorem Ipsum Lorem Ipsum</p>
+                <div className='d-block mtb'>
+                <p className='lang-desc fw-bold'>Stockage des données de l`&apos;`application</p>
+                </div>
                 </div>
 
                 <div className="col-4 inline-flex m-3">
                 <Image src={js} alt="Picture of the author" width={120} className="m-4"/>
-                <p className='lang-desc'>Lorem Ipsum Lorem Ipsum</p>
+                <div className='d-block mtb'>
+                <p className='lang-desc fw-bold'>Langage de programmation</p>
+                </div>
                 </div>
             </div>
 
 
-              <div className="justify-content-center inline-flex ">
+              <div className="justify-content-center inline-flex screens">
                 <div className="row">
               <div className="col">
               <Image  alt="Picture of the author" src={mini1} width={1800}/>
+                <div className='d-block mtb'>
+                  <p className='lang-desc fw-bold mt-3'>Salon de discussion</p>
+                </div>
               </div>
               <div className="col">
-              <Image  alt="Picture of the author" src={mini2} width={1400} />
+              <Image  alt="Picture of the author" src={mini2} width={1800} />
+              <div className='d-block mtb'>
+                  <p className='lang-desc fw-bold mt-3'>Profile </p>
+              </div>
               </div>
               <div className="col">
               <Image  alt="Picture of the author" src={mini3} width={1400} />
+              <div className='d-block mtb'>
+                  <p className='lang-desc fw-bold mt-3'> Page de Connexion </p>
+              </div>
               </div>
               <div className="col">
               <Image  alt="Picture of the author" src={mini4} width={1400} />
+              <div className='d-block mtb'>
+                  <p className='lang-desc fw-bold mt-3'> Page d`&apos;`Inscription </p>
+              </div>
               </div>
               <div className="col">
               <Image  alt="Picture of the author" src={mini5} width={1400} />
+              <div className='d-block mtb'>
+                  <p className='lang-desc fw-bold mt-3'> Statut des utilisateurs inscrits </p>
+              </div>
               </div>
             </div>
               </div>

@@ -11,7 +11,10 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
-
+a {
+  text-decoration: none!important;
+  color: inherit!important;
+}
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -32,7 +35,12 @@ body {
   height: 100%!important;
   font-family: 'Roob'!important;
 }
-
+.container-spec {
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 .title {
   font-size: 60px ;
   color: white;
@@ -66,10 +74,10 @@ body {
   justify-content: center;
 }
 .ability {
-  width: 18rem;
+  width: 12rem;
   align-items: center;
-  padding: 13%;
-  height: 13rem;
+  padding: 8%;
+  height: 10rem!important;
   border-radius: 28px!important;
 
 }
@@ -82,6 +90,10 @@ body {
 } 
 .creabox {
   transition: all 0.3s ease-in-out;
+
+}
+.creaboxDisa {
+  transition: none;
 
 }
 .creabox:hover {
@@ -105,6 +117,7 @@ body {
 .logov {
     /* margin-left: auto; */
     margin-right: 4%;
+    border-radius: 70px;
     /* margin-right: auto; */
     margin-bottom: 2%;
 }
@@ -217,6 +230,20 @@ body {
     background-color: #22374D;
     margin-right: 2%;
   }
+  .codeChauPrim {
+    width: 120px;
+    height: 120px;
+    background-color: #003C40;
+    color: white;
+    margin-right: 2%;
+  }
+  .codeChauTh {
+    width: 120px;
+    height: 120px;
+    background-color: lightgrey;
+    color: black;
+    margin-right: 2%;
+  }
   .codeMSec {
     width: 120px;
     height: 120px;
@@ -241,7 +268,14 @@ body {
   .lang-desc {
     margin-bottom: auto;
     margin-top:auto;
+    font-size: 20px;
     color: white;
+  }
+  .lang-desc-bl {
+    margin-bottom: auto;
+    margin-top:auto;
+    font-size: 20px;
+    color: black;
   }
   .codeCTh {
     width: 120px;
@@ -252,6 +286,17 @@ body {
     background-color: skyblue;
     width: 100%;
     text-align: center;
+    padding: 5%;
+    color: white;
+  }
+  .statik {
+    cursor: default;
+  }
+  .ribbonTAGC {
+    background-color: grey;
+    width: 100%;
+    text-align: center;
+    filter: grayscale(1);
     padding: 5%;
     color: white;
   }
@@ -434,3 +479,143 @@ li {
     background-position-x: right;
     height: 100%;
   }
+
+
+/*/ X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+  .mobile-col {
+    width: 45%!important;
+    margin-left: 3%!important;
+  }
+  .socialm {
+    width: 40px!important;
+  }
+  .socialme {
+    width: 40px!important;
+  }
+  .mobileLogo {
+    display: block!important;
+    margin-left: auto!important;
+    border-radius: 70px!important;
+    margin-right: auto!important;
+  }
+
+  .h25 {
+    display: block!important;
+  }
+  .homeTitle-mob {
+    font-size: 35px!important;
+    text-align: center!important;
+  }
+  .subTitle-mob {
+    font-size: 25px!important;
+    margin-top: 4%!important;
+    text-align: center!important;
+  }
+  .yearsTitle-mob {
+    font-size: 25px!important;
+    margin-top: 4%!important;
+    text-align: center!important;
+  }
+  .title-mob {
+    font-size: 35px!important;
+    text-align: left!important;
+    margin-left: 5%!important;
+    margin-top: 8%!important;
+  }
+  .ability-mob {
+    width: 10rem!important;
+    align-items: center!important;
+    padding: 8%!important;
+    height: 10rem!important;
+    border-radius: 28px!important;
+
+    margin-bottom:10%!important;
+  }
+  .comp-mob {
+    width: 45%!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+  }
+  .cancel-mt {
+    margin-top: inherit!important;
+  }
+
+  .ability2 {
+    width: 21rem!important;
+    display: block!important;
+    align-items: center!important;
+    padding: 13%!important;
+    height: 20rem!important;
+  }
+  .colorS {
+    display: block;
+    width: 575px;
+    margin-bottom: 8% ;
+  }
+
+  .colorS div {
+    display: table-cell;
+    width: 180px !important;
+    height: 150px;
+    margin-right: 5%;
+  }
+  .creat-mob {
+    width: 100%!important;
+    margin-left: 2%!important;
+    margin-right: auto!important;
+    display: flex!important;
+    padding: 8%!important;
+    flex-direction: row!important;
+  }
+  .sub-title{
+    font-size: 35px!important;
+  }
+  .col-mob {
+    width: 100%!important;
+  }
+  .project-title {
+    width: 570px!important;
+    text-align: center!important;
+    font-size: 70px!important;
+  }
+  .langList {
+    display: grid!important;
+    width: 520px!important;
+  }
+  .langList > div {
+    width: 100%!important;
+  }
+  .langList img {
+    width: 150px!important;
+  }
+  .langList .mtb {
+    width: 360px!important;
+  }
+  .mtb .lang-desc {
+    font-size: 25px!important;
+  }
+  .screens {
+    display: block!important;
+    width: 580px!important;
+  }
+  .screens .row {
+    display: block!important;
+  }
+  .screens img {
+    width: 100%!important;
+  }
+  .screens .col {
+    width: 580px!important;
+  }
+  .screens .lang-desc {
+    margin-bottom: 15%!important;
+    font-size: 35px!important;
+
+  }
+ }
+  
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+
+}
