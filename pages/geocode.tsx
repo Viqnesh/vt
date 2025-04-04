@@ -68,7 +68,7 @@ export default function Geocode() {
             <p className='lang-desc'>CMS pour la création du site et également l`&apos;`execution du script JS</p>
             </div>
             <div className="col-4 inline-flex m-3">
-            <Image src={gmaps} alt="Picture of the author" width={120} className="m-4 filtre-inv"/>
+            <Image src={gmaps} alt="Picture of the author" width={120} className="m-4"/>
             <p className='lang-desc'>Utilisation de l`&apos;`API Geocoding de Google</p>
             </div>
         </div>
