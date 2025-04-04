@@ -25,7 +25,7 @@ const AnimatedImage = () => {
         <div className='infoss'>
         <h1 className="title homeTitle-mob fw-bold lato mt-5">Vignesh Tillaisababady</h1>
         <h1 className="sub-title subTitle-mob fw-bold lato">Développeur Full-Stack</h1>
-        <h1 className="sub-title yearsTitle-mob fw-bold lato">25 ans</h1>
+        <h1 className="sub-title yearsTitle-mob fw-bold lato">26 ans</h1>
         </div>
 
     </div>
